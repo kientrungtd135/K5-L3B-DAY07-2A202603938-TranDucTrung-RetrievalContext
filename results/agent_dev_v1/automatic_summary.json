@@ -1,0 +1,127 @@
+{
+  "split": "dev",
+  "model": "deepseek-v4.1-flash",
+  "profiles": {
+    "dense_baseline": {
+      "queries": 17,
+      "answered": 14,
+      "abstain": 3,
+      "errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 5813.3929000468925,
+      "first_search_hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "first_search_hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "context_match": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "human_review": "pending; statuses are not answer-quality grades"
+    },
+    "bm25_candidate": {
+      "queries": 17,
+      "answered": 15,
+      "abstain": 2,
+      "errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 4331.579099991359,
+      "first_search_hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "first_search_hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "human_review": "pending; statuses are not answer-quality grades"
+    },
+    "hybrid_candidate": {
+      "queries": 17,
+      "answered": 15,
+      "abstain": 2,
+      "errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 5688.321699970402,
+      "first_search_hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "first_search_hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "human_review": "pending; statuses are not answer-quality grades"
+    },
+    "auto_candidate": {
+      "queries": 17,
+      "answered": 15,
+      "abstain": 2,
+      "errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 7147.406799951568,
+      "first_search_hit1": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "first_search_hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "human_review": "pending; statuses are not answer-quality grades"
+    }
+  },
+  "cost_usd": null,
+  "notes": [
+    "Only dev was run. No test question was sent to the agent.",
+    "Gold and expected answers were used only after agent.run returned.",
+    "Agent first-search metrics use model-generated queries; original-query metrics are in results/retrieval_dev.",
+    "Context match is an exact-quote check, not a human context grade.",
+    "Answered/abstain are statuses, not correctness or abstention grades.",
+    "Model and embedding usage remain in each trace; USD conversion is unverified."
+  ]
+}

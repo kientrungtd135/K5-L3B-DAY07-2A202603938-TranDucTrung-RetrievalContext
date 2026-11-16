@@ -1,0 +1,296 @@
+[
+  {
+    "id": "d7-dev-q01",
+    "split": "dev",
+    "question": "In the business articles, which company agreed to acquire Bendigo and Adelaide Bank’s superannuation business?",
+    "answerable": true,
+    "expected_answer": "Betashares",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0002",
+        "page": 1,
+        "evidence": "ETF provider Betashares, which manages $30 billion in funds, reached an agreement to acquire Bendigo and Adelaide Bank’s superannuation business, in its first venture into the superannuation sector.",
+        "source": "https://www.smh.com.au/business/markets/asx-set-to-drop-as-wall-street-s-september-slump-deepens-20230927-p5e7v7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      }
+    ],
+    "filter": {
+      "category": "business"
+    },
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q02",
+    "split": "dev",
+    "question": "What pricing condition caused Fred Ruckel’s Ripple Rug to lose its place in Amazon’s buy box?",
+    "answerable": true,
+    "expected_answer": "Amazon detected that the Ripple Rug was advertised for a lower price elsewhere.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0003",
+        "page": 1,
+        "evidence": "Amazon’s software had detected that Ruckel’s popular cat toy, called the Ripple Rug, was being sold somewhere else for a cheaper price. His product would no longer be shown in Amazon’s all-important buy box, an area of the listing where shoppers click “Add to Cart.”",
+        "source": "https://www.cnbc.com/2023/10/06/amazon-sellers-sound-off-on-the-ftcs-long-overdue-antitrust-case.html"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q03",
+    "split": "dev",
+    "question": "At which hotel in Menlo Park did Elon Musk dine with Sam Altman and researchers before the creation of OpenAI?",
+    "answerable": true,
+    "expected_answer": "The Rosewood hotel in Menlo Park, California.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0028",
+        "page": 1,
+        "evidence": "A few weeks later, Musk dined with Altman, who was then running a tech incubator, and several researchers in a private room at the Rosewood hotel in Menlo Park, California, a favoured deal-making spot close to the venture capital offices of Sand Hill Road.",
+        "source": "https://www.theage.com.au/business/entrepreneurship/how-ego-and-fear-fuelled-the-rise-of-artificial-intelligence-20231205-p5ep7j.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q04",
+    "split": "dev",
+    "question": "How much did Evolution Mining raise by selling new shares to institutional investors, and what was the price per share?",
+    "answerable": true,
+    "expected_answer": "$525 million at $3.80 per share.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0029",
+        "page": 1,
+        "evidence": "Only five large-cap stocks declined, with Evolution Mining sinking a mammoth 13 per cent after it raised $525 million selling new shares to institutional investors at $3.80 a share.",
+        "source": "https://www.smh.com.au/business/markets/asx-set-for-bright-start-a-drops-20231206-p5epbi.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q05",
+    "split": "dev",
+    "question": "For which kidney disease did Dimerix sign an exclusive licensing deal to commercialise its treatment?",
+    "answerable": true,
+    "expected_answer": "Focal Segmental Glomerulosclerosis.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0030",
+        "page": 1,
+        "evidence": "On the small-cap front, Melbourne-based biotech Dimerix more than doubled its share price to 16¢ on Thursday after the company revealed it had inked an exclusive licensing deal to commercialise its treatment for a kidney disease called Focal Segmental Glomerulosclerosis in Europe, the UK, Switzerland, Canada, Australia and New Zealand.",
+        "source": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-as-wall-street-steadies-a-rises-20231005-p5e9va.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q06",
+    "split": "dev",
+    "question": "Which crypto hedge fund did prosecutor Rehn describe as the key to Sam Bankman-Fried’s alleged scheme?",
+    "answerable": true,
+    "expected_answer": "Alameda Research.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0032",
+        "page": 1,
+        "evidence": "The key to his alleged scheme? Alameda Research, a crypto hedge fund he also owned, argued Rehn.",
+        "source": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q07",
+    "split": "dev",
+    "question": "How much did Rani Zim borrow from Mizrahi Tefahot Bank for the Psagot acquisition, and how much remained outstanding?",
+    "answerable": true,
+    "expected_answer": "He borrowed NIS 255 million; NIS 120 million remained outstanding.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0074",
+        "page": 1,
+        "evidence": "To finance the acquisition, Zim took a loan of NIS 255 million from Mizrahi Tefahot Bank, which he offloaded onto the acquired investment house. NIS 120 million is still outstanding.",
+        "source": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q08",
+    "split": "dev",
+    "question": "According to the report on rising bond yields, how can higher yields affect stock prices and borrowing costs?",
+    "answerable": true,
+    "expected_answer": "They can lower stock prices and slow the economy by making borrowing more expensive.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0075",
+        "page": 1,
+        "evidence": "Higher yields can knock down prices for stocks and slow the economy by making borrowing more expensive.",
+        "source": "https://www.theage.com.au/business/markets/asx-to-open-lower-wall-street-falls-as-the-clamp-tightens-from-rising-bond-yields-20231013-p5eby7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q09",
+    "split": "dev",
+    "question": "On which weekday and at what Pacific time does TechCrunch’s Chain Reaction newsletter arrive?",
+    "answerable": true,
+    "expected_answer": "Thursdays at 12 p.m. PT.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0010",
+        "page": 1,
+        "evidence": "You can also follow along with her and the TechCrunch team’s coverage in the Chain Reaction newsletter, which drops Thursdays at 12 p.m. PT, and the Chain Reaction podcast, which will hit your feed every Thursday.",
+        "source": "https://techcrunch.com/2023/10/06/sbf-trial-the-latest-updates-from-the-ftx-collapses-courtroom-drama/"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q10",
+    "split": "dev",
+    "question": "How much did FTX raise in its January 2022 Series C round, and what valuation did that round give the company?",
+    "answerable": true,
+    "expected_answer": "$400 million, bringing its valuation to $32 billion.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0011",
+        "page": 1,
+        "evidence": "In January 2022, the company raised $400 million in a Series C round, boosting its valuation to $32 billion.",
+        "source": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q11",
+    "split": "dev",
+    "question": "Within the technology category, which startup converts businesses’ plain-English back-office instructions into pseudo-code in real time?",
+    "answerable": true,
+    "expected_answer": "Induced AI.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0012",
+        "page": 1,
+        "evidence": "Manish writes that Induced AI, founded this year, lets businesses input their back-office tasks in plain English and converts the instructions to pseudo-code in real time.",
+        "source": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/"
+      }
+    ],
+    "filter": {
+      "category": "technology"
+    },
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q12",
+    "split": "dev",
+    "question": "What is the name and acronym of the agreement that makes Google Search the default on Apple products?",
+    "answerable": true,
+    "expected_answer": "The Information Services Agreement (ISA).",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0015",
+        "page": 1,
+        "evidence": "Apple is in court because of something called the Information Services Agreement, or ISA: a deal that makes Google’s search engine the default on Apple’s products.",
+        "source": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q13",
+    "split": "dev",
+    "question": "If Judge Amit Mehta rules against Google in the antitrust case, what might Google have to share with third-party developers?",
+    "answerable": true,
+    "expected_answer": "Its APIs; the article describes this as a possible outcome, not a guaranteed requirement.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0016",
+        "page": 1,
+        "evidence": "If Judge Amit Mehta rules against Google, the search giant may have to change its behavior and share its APIs with third-party developers.",
+        "source": "https://techcrunch.com/2023/11/13/more-from-the-us-v-google-trial-vertical-search-pre-installs-and-the-case-of-firefox-yahoo/"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q14",
+    "split": "dev",
+    "question": "Under the DSA discussion in the article about X, what additional sanction could repeated infringements trigger besides fines?",
+    "answerable": true,
+    "expected_answer": "Potential blocking of the service.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0025",
+        "page": 1,
+        "evidence": "Non-compliance under DSA rules, meanwhile, could trigger fines of up to 6% of annual turnover, plus potential blocking of a service for repeated infringements.",
+        "source": "https://techcrunch.com/2023/10/12/eu-x-investigation/"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-q15",
+    "split": "dev",
+    "question": "Does the EU warning article say disinformation is illegal in the EU per se, and what DSA duty does it describe for X regarding harmful falsehoods?",
+    "answerable": true,
+    "expected_answer": "No. It says disinformation is not illegal per se, but the DSA obliges X to mitigate risks attached to harmful falsehoods.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0026",
+        "page": 1,
+        "evidence": "Unlike terrorism content, disinformation is not illegal in the EU per se. However, the EU’s Digital Services Act (DSA) puts an obligation on X — as a so-called very large online platform — to mitigate risks attached to harmful falsehoods as well as to act diligently on reports of illegal content.",
+        "source": "https://techcrunch.com/2023/10/10/eu-dsa-warning-elon-musk-x/"
+      }
+    ],
+    "filter": {},
+    "provenance": "Reused Day 6 dev question."
+  },
+  {
+    "id": "d7-dev-u01",
+    "split": "dev",
+    "question": "What exact percentage of Fred Ruckel's Ripple Rug sales came from Amazon in calendar year 2022?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The article gives Ruckel's prices and losses, but no 2022 sales percentage. The 90% figure concerns Molson Hart, a different seller.",
+    "gold": [],
+    "filter": {}
+  },
+  {
+    "id": "d7-dev-u02",
+    "split": "dev",
+    "question": "What was Betashares' net profit after tax for the financial year ended 30 June 2023?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Betashares is mentioned for an acquisition and funds under management, not its annual net profit.",
+    "gold": [],
+    "filter": {}
+  }
+]

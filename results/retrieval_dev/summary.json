@@ -1,0 +1,92 @@
+{
+  "plan": {
+    "split": "dev",
+    "methods": [
+      "dense",
+      "bm25",
+      "hybrid"
+    ],
+    "top_k": 3,
+    "candidate_k": 10,
+    "rrf_k": 60,
+    "budget_chars": 4000,
+    "dev_sha256": "53023071a012e095607506f833ec63af3e668ddd7bd562d1a64b251b492e2b2c",
+    "corpus_sha256": "2c7d8f4d7614c39037d1a3c4a8ea853de5d5baf5166929c61a31da4f36f8b661",
+    "code_hashes": {
+      "day6_bridge.py": "9993db94bdcc9bb6d4a1d8689717d4f639e4f2a510e4bd8249b67e01c4f4a01d",
+      "retrieval.py": "2132e82116fb8dbed6cb630a0e8acd7ef6d6d36444b743cb7083af9048b795dd",
+      "evaluate_retrieval.py": "c446610d6737c90992f361e72ec09ed47025a584acc3c95e4630563f547fbb75"
+    }
+  },
+  "methods": {
+    "dense": {
+      "queries": 17,
+      "errors": 0,
+      "median_ms": 1575.7132999715395,
+      "hit1": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      }
+    },
+    "bm25": {
+      "queries": 17,
+      "errors": 0,
+      "median_ms": 3.056999994441867,
+      "hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      }
+    },
+    "hybrid": {
+      "queries": 17,
+      "errors": 0,
+      "median_ms": 1547.1359000075608,
+      "hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      }
+    }
+  },
+  "failed_attempts": 0,
+  "cost_usd": null,
+  "notes": [
+    "Unanswerable cases are excluded from retrieval metric denominators.",
+    "Latest errors on answerable cases count as misses; failed attempts remain in the trace.",
+    "Context match checks exact gold quotes, not human context grades or generated answers.",
+    "Median includes successful search and context packing; excludes retriever initialization.",
+    "Embedding usage is retained per trace; provider cost units have not been converted to USD."
+  ]
+}

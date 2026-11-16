@@ -1,0 +1,19 @@
+{
+  "split": "dev",
+  "methods": [
+    "dense",
+    "bm25",
+    "hybrid"
+  ],
+  "top_k": 3,
+  "candidate_k": 10,
+  "rrf_k": 60,
+  "budget_chars": 4000,
+  "dev_sha256": "53023071a012e095607506f833ec63af3e668ddd7bd562d1a64b251b492e2b2c",
+  "corpus_sha256": "2c7d8f4d7614c39037d1a3c4a8ea853de5d5baf5166929c61a31da4f36f8b661",
+  "code_hashes": {
+    "day6_bridge.py": "9993db94bdcc9bb6d4a1d8689717d4f639e4f2a510e4bd8249b67e01c4f4a01d",
+    "retrieval.py": "2132e82116fb8dbed6cb630a0e8acd7ef6d6d36444b743cb7083af9048b795dd",
+    "evaluate_retrieval.py": "c446610d6737c90992f361e72ec09ed47025a584acc3c95e4630563f547fbb75"
+  }
+}

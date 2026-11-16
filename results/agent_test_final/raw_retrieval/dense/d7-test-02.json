@@ -1,0 +1,181 @@
+{
+  "query_id": "d7-test-02",
+  "method": "dense",
+  "question": "According to the Helena World Chronicle lawsuit article, how many facts and entities did Google's Knowledge Graph contain by 2020?",
+  "answerable": true,
+  "status": "ok",
+  "retrieval": {
+    "method": "dense",
+    "query": "According to the Helena World Chronicle lawsuit article, how many facts and entities did Google's Knowledge Graph contain by 2020?",
+    "filters": {},
+    "top_k": 3,
+    "candidate_k": 3,
+    "rrf_k": null,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC-casefold-word"
+    },
+    "dense_candidates": [
+      {
+        "id": "by_paragraph-12c20f27e1251d18c440423d14c8faca25919a3d2b5e8c1a2e2789a760062df8",
+        "source_id": "doc_0034",
+        "source": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+        "page": 1,
+        "text": "By 2020, the Knowledge Graph had grown to 500 billion facts about 5 billion entities. But much of the “collective intelligence” that Google tapped into was content “misappropriated from Publishers,” the complaint alleges.\n\nOther Google technologies, like “Featured Snippets” where Google algorithmically extracts answers from webpages, were also cited as shifting traffic away from publishers’ websites.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0034:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-12-15T17:56:02+00:00",
+          "char_count": 6394,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0034_News_publisher_files_class_action_antitrust_suit_against_Goo.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.6632368713819242
+      },
+      {
+        "id": "by_paragraph-19e0736ad6a96fcbfae81308172ef676cd918cbfbb869d0c6bb300469b5dfe5c",
+        "source_id": "doc_0034",
+        "source": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+        "page": 1,
+        "text": "In the complaint, Helena World Chronicle, which owns and publishes two weekly newspapers in Arkansas, argues that Google is “starving the free press” by sharing publishers’ content on Google, losing them “billions of dollars.”\n\nIn addition to new AI technologies, the suit points to Google’s older question-and-answer technologies, like the “Knowledge Graph” launched in May 2012, as part of the problem.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0034:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-12-15T17:56:02+00:00",
+          "char_count": 6394,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0034_News_publisher_files_class_action_antitrust_suit_against_Goo.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5666398617006649
+      },
+      {
+        "id": "by_paragraph-51b3d79954a159f45d10ec13862b8927768ef4235dc92001ad7bc3ef80fb016f",
+        "source_id": "doc_0034",
+        "source": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+        "page": 1,
+        "text": "“When a user searches for information on a topic, Google displays a ‘Knowledge Panel’ to the right of the search results. This panel contains a summary of content drawn from the Knowledge Graph database,” the complaint states. “Google compiled this massive database by extracting information from Publishers’ websites — what Google calls ‘materials shared across the web’ —and from ‘open source and licensed databases,'” it says.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0034:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-12-15T17:56:02+00:00",
+          "char_count": 6394,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0034_News_publisher_files_class_action_antitrust_suit_against_Goo.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5581437698313938
+      }
+    ],
+    "bm25_candidates": [],
+    "results": [
+      {
+        "id": "by_paragraph-12c20f27e1251d18c440423d14c8faca25919a3d2b5e8c1a2e2789a760062df8",
+        "source_id": "doc_0034",
+        "source": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+        "page": 1,
+        "text": "By 2020, the Knowledge Graph had grown to 500 billion facts about 5 billion entities. But much of the “collective intelligence” that Google tapped into was content “misappropriated from Publishers,” the complaint alleges.\n\nOther Google technologies, like “Featured Snippets” where Google algorithmically extracts answers from webpages, were also cited as shifting traffic away from publishers’ websites.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0034:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-12-15T17:56:02+00:00",
+          "char_count": 6394,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0034_News_publisher_files_class_action_antitrust_suit_against_Goo.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.6632368713819242
+      },
+      {
+        "id": "by_paragraph-19e0736ad6a96fcbfae81308172ef676cd918cbfbb869d0c6bb300469b5dfe5c",
+        "source_id": "doc_0034",
+        "source": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+        "page": 1,
+        "text": "In the complaint, Helena World Chronicle, which owns and publishes two weekly newspapers in Arkansas, argues that Google is “starving the free press” by sharing publishers’ content on Google, losing them “billions of dollars.”\n\nIn addition to new AI technologies, the suit points to Google’s older question-and-answer technologies, like the “Knowledge Graph” launched in May 2012, as part of the problem.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0034:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-12-15T17:56:02+00:00",
+          "char_count": 6394,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0034_News_publisher_files_class_action_antitrust_suit_against_Goo.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5666398617006649
+      },
+      {
+        "id": "by_paragraph-51b3d79954a159f45d10ec13862b8927768ef4235dc92001ad7bc3ef80fb016f",
+        "source_id": "doc_0034",
+        "source": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+        "page": 1,
+        "text": "“When a user searches for information on a topic, Google displays a ‘Knowledge Panel’ to the right of the search results. This panel contains a summary of content drawn from the Knowledge Graph database,” the complaint states. “Google compiled this massive database by extracting information from Publishers’ websites — what Google calls ‘materials shared across the web’ —and from ‘open source and licensed databases,'” it says.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0034:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-12-15T17:56:02+00:00",
+          "char_count": 6394,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0034_News_publisher_files_class_action_antitrust_suit_against_Goo.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5581437698313938
+      }
+    ],
+    "elapsed_ms": 1319.6191000170074,
+    "embedding_usage": {
+      "prompt_tokens": 25,
+      "total_tokens": 25,
+      "completion_tokens": 0,
+      "x_ckey": {
+        "cost": 6,
+        "cost_is_estimate": false,
+        "request_id": "req_2b8a0d0c8910434bb7df48ee"
+      }
+    }
+  },
+  "context": "[by_paragraph-12c20f27e1251d18c440423d14c8faca25919a3d2b5e8c1a2e2789a760062df8 | https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/ | page 1]\nBy 2020, the Knowledge Graph had grown to 500 billion facts about 5 billion entities. But much of the “collective intelligence” that Google tapped into was content “misappropriated from Publishers,” the complaint alleges.\n\nOther Google technologies, like “Featured Snippets” where Google algorithmically extracts answers from webpages, were also cited as shifting traffic away from publishers’ websites.\n\n[by_paragraph-19e0736ad6a96fcbfae81308172ef676cd918cbfbb869d0c6bb300469b5dfe5c | https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/ | page 1]\nIn the complaint, Helena World Chronicle, which owns and publishes two weekly newspapers in Arkansas, argues that Google is “starving the free press” by sharing publishers’ content on Google, losing them “billions of dollars.”\n\nIn addition to new AI technologies, the suit points to Google’s older question-and-answer technologies, like the “Knowledge Graph” launched in May 2012, as part of the problem.\n\n[by_paragraph-51b3d79954a159f45d10ec13862b8927768ef4235dc92001ad7bc3ef80fb016f | https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/ | page 1]\n“When a user searches for information on a topic, Google displays a ‘Knowledge Panel’ to the right of the search results. This panel contains a summary of content drawn from the Knowledge Graph database,” the complaint states. “Google compiled this massive database by extracting information from Publishers’ websites — what Google calls ‘materials shared across the web’ —and from ‘open source and licensed databases,'” it says.",
+  "context_ids": [
+    "by_paragraph-12c20f27e1251d18c440423d14c8faca25919a3d2b5e8c1a2e2789a760062df8",
+    "by_paragraph-19e0736ad6a96fcbfae81308172ef676cd918cbfbb869d0c6bb300469b5dfe5c",
+    "by_paragraph-51b3d79954a159f45d10ec13862b8927768ef4235dc92001ad7bc3ef80fb016f"
+  ],
+  "context_budget_chars": 4000,
+  "context_chars": 1924,
+  "hit1": true,
+  "hit3": true,
+  "context_match": true,
+  "elapsed_ms": 1319.6781000006013,
+  "split": "test"
+}

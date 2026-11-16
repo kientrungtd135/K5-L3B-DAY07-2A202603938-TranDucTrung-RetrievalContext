@@ -1,0 +1,55 @@
+{
+  "frozen_at_utc": "2026-11-16T09:36:14.089643+00:00",
+  "model": "deepseek-v4.1-flash",
+  "endpoint": "https://api.xah.io/v1",
+  "profiles": {
+    "dense_baseline": {
+      "module": "src.agent",
+      "params": {
+        "method": "dense",
+        "top_k": 3,
+        "budget": 4000,
+        "max_searches": 1
+      }
+    },
+    "auto_english_v2": {
+      "module": "src.agent_v2",
+      "params": {
+        "method": "auto",
+        "top_k": 3,
+        "budget": 4000,
+        "max_searches": 3
+      }
+    }
+  },
+  "raw_retrieval_methods": [
+    "dense",
+    "bm25",
+    "hybrid"
+  ],
+  "dev_sha256": "53023071a012e095607506f833ec63af3e668ddd7bd562d1a64b251b492e2b2c",
+  "test_sha256": "629094284c3a6a47e5b6ada2f4af5ab58e70b9a6dd683d60f84647fb6a337c8f",
+  "corpus_sha256": "2c7d8f4d7614c39037d1a3c4a8ea853de5d5baf5166929c61a31da4f36f8b661",
+  "code_hashes": {
+    "src/agent.py": "3c398112d282b770822f562214e3fd739ffe034cf10a45591f7bb2cd12647554",
+    "src/agent_v2.py": "dcccc3a5c6779d2f6be2a2dac3d26856cb48c086241635532432712aa0f79750",
+    "src/retrieval.py": "2132e82116fb8dbed6cb630a0e8acd7ef6d6d36444b743cb7083af9048b795dd",
+    "src/day6_bridge.py": "9993db94bdcc9bb6d4a1d8689717d4f639e4f2a510e4bd8249b67e01c4f4a01d",
+    "src/evaluate_agent.py": "8415ad171129525a9c238dea4052f8c1968652a395149b7cc6d4b2758fc626ad",
+    "src/evaluate_agent_v2.py": "dc2cbfc25a74e6cdecc411a9908e42b51e6e8976f62ebc589f9946f5457a4e43",
+    "src/evaluate_retrieval.py": "c446610d6737c90992f361e72ec09ed47025a584acc3c95e4630563f547fbb75",
+    "src/prepare_benchmark.py": "4f5b33789ae8cae2c068fef64712c7e61c96eae0d01bbc56e1d6cc2c9c94bac9",
+    "src/final_test.py": "252fb2afe82de36d1ac2598cf99d2208d294080ece6a3359fbd008ce3365f035",
+    "starter/baseline.py": "cf51d4f4dd5412270d73b51cb117eef5329695fc8fd8eb637de050b3d6488c36"
+  },
+  "dev_review_hashes": {
+    "agent_dev_v1": "b7c3b9f123339b3aaf0dfbe0de03171e44c5bcd510d11448213e5084916e2d77",
+    "agent_dev_v2": "49f2a9817aea744df0d5335a047c5b05a9bb106ec7dc95093a72ae413ed6829c"
+  },
+  "original_selection_rule": "DEV: highest mean grounded-answer grade, then context evidence rate, then citation validity, then lower median end-to-end latency. Report usage and cost separately.",
+  "dev_policy_refinement": "Before test, strict English and inline/list citation consistency were made functional eligibility requirements after observed v1 failures. V2 retains dev content quality with higher latency; v1 is preserved as baseline.",
+  "review_provenance": "AI-proposed source inspection; human confirmation is not implied.",
+  "selected_dev_points": 30,
+  "baseline_dev_points": 27,
+  "test_policy": "Freeze before reading test questions; no parameter or prompt tuning on test. Resume retries system errors only and preserves failed attempts."
+}

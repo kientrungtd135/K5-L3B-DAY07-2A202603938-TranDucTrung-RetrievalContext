@@ -1,0 +1,112 @@
+[
+  {
+    "id": "d7-test-01",
+    "split": "test",
+    "question": "According to the Google Search article, approximately how many zettabytes of data were people creating every year in 2013?",
+    "answerable": true,
+    "expected_answer": "Around 9 zettabytes (9 ZB) per year.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0033",
+        "page": 1,
+        "evidence": "In 2013, people were creating around 9 ZB of data every year",
+        "source": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology"
+      }
+    ],
+    "filter": {},
+    "provenance": "New Day 7 test question."
+  },
+  {
+    "id": "d7-test-02",
+    "split": "test",
+    "question": "According to the Helena World Chronicle lawsuit article, how many facts and entities did Google's Knowledge Graph contain by 2020?",
+    "answerable": true,
+    "expected_answer": "500 billion facts about 5 billion entities.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0034",
+        "page": 1,
+        "evidence": "By 2020, the Knowledge Graph had grown to 500 billion facts about 5 billion entities.",
+        "source": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/"
+      }
+    ],
+    "filter": {},
+    "provenance": "New Day 7 test question."
+  },
+  {
+    "id": "d7-test-03",
+    "split": "test",
+    "question": "According to the Epic Games trial preview, what commission range did Google charge app developers on sales processed through its first-party billing system?",
+    "answerable": true,
+    "expected_answer": "15% to 30%.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0043",
+        "page": 1,
+        "evidence": "charges app developers a 15% to 30% commission on the sales it processes.",
+        "source": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/"
+      }
+    ],
+    "filter": {},
+    "provenance": "New Day 7 test question."
+  },
+  {
+    "id": "d7-test-04",
+    "split": "test",
+    "question": "In the Manchester United article, what planned infrastructure investment amount is mentioned in US dollars and pounds?",
+    "answerable": true,
+    "expected_answer": "US$300 million, equivalent to 237 million pounds.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0090",
+        "page": 1,
+        "evidence": "invest $300m (£237m) into infrastructure",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray"
+      }
+    ],
+    "filter": {},
+    "provenance": "New Day 7 test question."
+  },
+  {
+    "id": "d7-test-05",
+    "split": "test",
+    "question": "According to the Menendez article, what was the reported dollar value of gold bars found in the raid on his house?",
+    "answerable": true,
+    "expected_answer": "$100,000.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "doc_0098",
+        "page": 1,
+        "evidence": "A raid of Menendez’s house turned up $100,000 in gold bars and bundles of cash stuffed into jacket pockets.",
+        "source": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/"
+      }
+    ],
+    "filter": {},
+    "provenance": "New Day 7 test question."
+  },
+  {
+    "id": "d7-test-u01",
+    "split": "test",
+    "question": "What exact monthly subscription price in US dollars did Mozilla announce for Mozilla.social?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The article describes a private beta and moderation plans but gives no monthly subscription price. Absence of a price does not imply a zero-dollar price.",
+    "gold": [],
+    "filter": {}
+  },
+  {
+    "id": "d7-test-u02",
+    "split": "test",
+    "question": "What exact dollar amount in damages did the court ultimately award Helena World Chronicle in its lawsuit against Google?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The snapshot describes a newly filed lawsuit and requested relief, not a damages award. Google's Canadian media agreement is a different matter.",
+    "gold": [],
+    "filter": {}
+  }
+]

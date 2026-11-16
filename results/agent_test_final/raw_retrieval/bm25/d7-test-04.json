@@ -1,0 +1,172 @@
+{
+  "query_id": "d7-test-04",
+  "method": "bm25",
+  "question": "In the Manchester United article, what planned infrastructure investment amount is mentioned in US dollars and pounds?",
+  "answerable": true,
+  "status": "ok",
+  "retrieval": {
+    "method": "bm25",
+    "query": "In the Manchester United article, what planned infrastructure investment amount is mentioned in US dollars and pounds?",
+    "filters": {},
+    "top_k": 3,
+    "candidate_k": 3,
+    "rrf_k": null,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC-casefold-word"
+    },
+    "dense_candidates": [],
+    "bm25_candidates": [
+      {
+        "id": "by_paragraph-0ea348a1ae6676c97c8fa5f6bc1bce04fd969845aae3e561e2cf0b436c0c6683",
+        "source_id": "doc_0015",
+        "source": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
+        "page": 1,
+        "text": "Cue was on the stand as a witness in US v. Google, the landmark antitrust trial over Google’s search business. Cue is one of the highest-profile witnesses in the case so far, in part because the deal between Google and Apple — which makes Google the default search engine on all Apple devices and pays Apple billions of dollars a year — is central to the US Department of Justice’s case against Google.",
+        "metadata": {
+          "url": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "author": "David Pierce",
+          "source": "The Verge",
+          "unit_id": "doc_0015:unit_1",
+          "category": "technology",
+          "end_line": 45,
+          "published": "2023-09-26T17:01:22+00:00",
+          "char_count": 7695,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0015_Apple_defends_Google_Search_deal_in_court_There_wasn_t_a_val.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 16.86200863465953
+      },
+      {
+        "id": "by_paragraph-5c6b80a5478db3e587e35a3235a8c31721bc3ed6e63f0cc21c4d5b7b7b9c21af",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "For paying an overpriced £1.3bn for his 25% Ratcliffe obtains a major element of control but still the Glazers remain majority owners. The 71-year-old oversees football policy but these do not exist in a vacuum given that the commercial side affects this and vice versa. Ratcliffe accepts Manchester United have an impressive revenue-based model that makes the club akin to a cash machine but he is not enamoured of how the money generated is invested – primarily in the squad. What happens then, ",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 16.638334920138306
+      },
+      {
+        "id": "by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31",
+        "source_id": "doc_0074",
+        "source": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+        "page": 1,
+        "text": "But, as reported six months ago, Zim has started to look for someone to buy his entire stake in the investment house, or at least part of it. One of the names mentioned in the press is that of Group Psagot CEO Yaniv Bender, who currently holds 7.4% of the company, as someone who could participate in such an acquisition.",
+        "metadata": {
+          "url": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+          "title": "Psagot worth 80% less since Rani Zim bought it",
+          "author": "Roi Weinberger",
+          "source": "Globes English | Israel Business Arena",
+          "unit_id": "doc_0074:unit_1",
+          "category": "business",
+          "end_line": 47,
+          "published": "2023-11-05T13:10:32+00:00",
+          "char_count": 6734,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0074_Psagot_worth_80_less_since_Rani_Zim_bought_it.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 16.468428074002222
+      }
+    ],
+    "results": [
+      {
+        "id": "by_paragraph-0ea348a1ae6676c97c8fa5f6bc1bce04fd969845aae3e561e2cf0b436c0c6683",
+        "source_id": "doc_0015",
+        "source": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
+        "page": 1,
+        "text": "Cue was on the stand as a witness in US v. Google, the landmark antitrust trial over Google’s search business. Cue is one of the highest-profile witnesses in the case so far, in part because the deal between Google and Apple — which makes Google the default search engine on all Apple devices and pays Apple billions of dollars a year — is central to the US Department of Justice’s case against Google.",
+        "metadata": {
+          "url": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "author": "David Pierce",
+          "source": "The Verge",
+          "unit_id": "doc_0015:unit_1",
+          "category": "technology",
+          "end_line": 45,
+          "published": "2023-09-26T17:01:22+00:00",
+          "char_count": 7695,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0015_Apple_defends_Google_Search_deal_in_court_There_wasn_t_a_val.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 16.86200863465953
+      },
+      {
+        "id": "by_paragraph-5c6b80a5478db3e587e35a3235a8c31721bc3ed6e63f0cc21c4d5b7b7b9c21af",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "For paying an overpriced £1.3bn for his 25% Ratcliffe obtains a major element of control but still the Glazers remain majority owners. The 71-year-old oversees football policy but these do not exist in a vacuum given that the commercial side affects this and vice versa. Ratcliffe accepts Manchester United have an impressive revenue-based model that makes the club akin to a cash machine but he is not enamoured of how the money generated is invested – primarily in the squad. What happens then, ",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 16.638334920138306
+      },
+      {
+        "id": "by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31",
+        "source_id": "doc_0074",
+        "source": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+        "page": 1,
+        "text": "But, as reported six months ago, Zim has started to look for someone to buy his entire stake in the investment house, or at least part of it. One of the names mentioned in the press is that of Group Psagot CEO Yaniv Bender, who currently holds 7.4% of the company, as someone who could participate in such an acquisition.",
+        "metadata": {
+          "url": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+          "title": "Psagot worth 80% less since Rani Zim bought it",
+          "author": "Roi Weinberger",
+          "source": "Globes English | Israel Business Arena",
+          "unit_id": "doc_0074:unit_1",
+          "category": "business",
+          "end_line": 47,
+          "published": "2023-11-05T13:10:32+00:00",
+          "char_count": 6734,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0074_Psagot_worth_80_less_since_Rani_Zim_bought_it.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 16.468428074002222
+      }
+    ],
+    "elapsed_ms": 8.149700006470084,
+    "embedding_usage": null
+  },
+  "context": "[by_paragraph-0ea348a1ae6676c97c8fa5f6bc1bce04fd969845aae3e561e2cf0b436c0c6683 | https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google | page 1]\nCue was on the stand as a witness in US v. Google, the landmark antitrust trial over Google’s search business. Cue is one of the highest-profile witnesses in the case so far, in part because the deal between Google and Apple — which makes Google the default search engine on all Apple devices and pays Apple billions of dollars a year — is central to the US Department of Justice’s case against Google.\n\n[by_paragraph-5c6b80a5478db3e587e35a3235a8c31721bc3ed6e63f0cc21c4d5b7b7b9c21af | https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray | page 1]\nFor paying an overpriced £1.3bn for his 25% Ratcliffe obtains a major element of control but still the Glazers remain majority owners. The 71-year-old oversees football policy but these do not exist in a vacuum given that the commercial side affects this and vice versa. Ratcliffe accepts Manchester United have an impressive revenue-based model that makes the club akin to a cash machine but he is not enamoured of how the money generated is invested – primarily in the squad. What happens then, \n\n[by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31 | https://en.globes.co.il/en/article-1001461693#utm_source=RSS | page 1]\nBut, as reported six months ago, Zim has started to look for someone to buy his entire stake in the investment house, or at least part of it. One of the names mentioned in the press is that of Group Psagot CEO Yaniv Bender, who currently holds 7.4% of the company, as someone who could participate in such an acquisition.",
+  "context_ids": [
+    "by_paragraph-0ea348a1ae6676c97c8fa5f6bc1bce04fd969845aae3e561e2cf0b436c0c6683",
+    "by_paragraph-5c6b80a5478db3e587e35a3235a8c31721bc3ed6e63f0cc21c4d5b7b7b9c21af",
+    "by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31"
+  ],
+  "context_budget_chars": 4000,
+  "context_chars": 1741,
+  "hit1": false,
+  "hit3": false,
+  "context_match": false,
+  "elapsed_ms": 8.238200040068477,
+  "split": "test"
+}

@@ -9,3 +9,9 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+deps/
+
+results/reproduction/
+
+results/reproduce_*/

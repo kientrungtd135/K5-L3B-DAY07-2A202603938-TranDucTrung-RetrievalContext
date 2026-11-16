@@ -1,0 +1,181 @@
+{
+  "query_id": "d7-test-04",
+  "method": "dense",
+  "question": "In the Manchester United article, what planned infrastructure investment amount is mentioned in US dollars and pounds?",
+  "answerable": true,
+  "status": "ok",
+  "retrieval": {
+    "method": "dense",
+    "query": "In the Manchester United article, what planned infrastructure investment amount is mentioned in US dollars and pounds?",
+    "filters": {},
+    "top_k": 3,
+    "candidate_k": 3,
+    "rrf_k": null,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC-casefold-word"
+    },
+    "dense_candidates": [
+      {
+        "id": "by_paragraph-89c8adaaca7d8e7980b7474d26e84664026489a9f4baada229b9519688b8dc6e",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "invest $300m (£237m) into infrastructure but this is small beer when considering the multibillion-pound facelift or new venue required. There is also the cramped Carrington base: as on Sir Matt Busby Way, the footprint is large at the training ground but the configuration and facilities are ageing – badly.",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5932339313447125
+      },
+      {
+        "id": "by_paragraph-79be1aff9882f4b89eebd053cae8ccde4e31a30213cbf5343c2c5fe12de89996",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "Manchester United’s century old stadium needs an upgrade. Photograph: Greig Cowie/Shutterstock\n\nCommunications",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5147957650136876
+      },
+      {
+        "id": "by_paragraph-7ce1bfa71e46378751a20edaabcab7319a6d95ac331599c233e286ba161a7b23",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "To find an apt shorthand for the lurching ship that is United, end the search at the roof of their stadium where on Manchester’s (many) wet days rain leaks through. Old Trafford remains a storied venue but as it continues to crumble the tale of disrepair has become a central narrative in its recent history. As Premier League titles have become scarce (zero in a decade) the tale of neglect of a ground that dates to 1910 is emblematic of the Glazers’ quasi‑absentee proprietorship. Ratcliffe will ",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.48118994069546317
+      }
+    ],
+    "bm25_candidates": [],
+    "results": [
+      {
+        "id": "by_paragraph-89c8adaaca7d8e7980b7474d26e84664026489a9f4baada229b9519688b8dc6e",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "invest $300m (£237m) into infrastructure but this is small beer when considering the multibillion-pound facelift or new venue required. There is also the cramped Carrington base: as on Sir Matt Busby Way, the footprint is large at the training ground but the configuration and facilities are ageing – badly.",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5932339313447125
+      },
+      {
+        "id": "by_paragraph-79be1aff9882f4b89eebd053cae8ccde4e31a30213cbf5343c2c5fe12de89996",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "Manchester United’s century old stadium needs an upgrade. Photograph: Greig Cowie/Shutterstock\n\nCommunications",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5147957650136876
+      },
+      {
+        "id": "by_paragraph-7ce1bfa71e46378751a20edaabcab7319a6d95ac331599c233e286ba161a7b23",
+        "source_id": "doc_0090",
+        "source": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+        "page": 1,
+        "text": "To find an apt shorthand for the lurching ship that is United, end the search at the roof of their stadium where on Manchester’s (many) wet days rain leaks through. Old Trafford remains a storied venue but as it continues to crumble the tale of disrepair has become a central narrative in its recent history. As Premier League titles have become scarce (zero in a decade) the tale of neglect of a ground that dates to 1910 is emblematic of the Glazers’ quasi‑absentee proprietorship. Ratcliffe will ",
+        "metadata": {
+          "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+          "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+          "author": "Jamie Jackson",
+          "source": "The Guardian",
+          "unit_id": "doc_0090:unit_1",
+          "category": "business",
+          "end_line": 39,
+          "published": "2023-12-25T10:00:20+00:00",
+          "char_count": 5927,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.48118994069546317
+      }
+    ],
+    "elapsed_ms": 1295.4238000093028,
+    "embedding_usage": {
+      "prompt_tokens": 19,
+      "total_tokens": 19,
+      "completion_tokens": 0,
+      "x_ckey": {
+        "cost": 6,
+        "cost_is_estimate": false,
+        "request_id": "req_cdac841043dc8e0fe2671122"
+      }
+    }
+  },
+  "context": "[by_paragraph-89c8adaaca7d8e7980b7474d26e84664026489a9f4baada229b9519688b8dc6e | https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray | page 1]\ninvest $300m (£237m) into infrastructure but this is small beer when considering the multibillion-pound facelift or new venue required. There is also the cramped Carrington base: as on Sir Matt Busby Way, the footprint is large at the training ground but the configuration and facilities are ageing – badly.\n\n[by_paragraph-79be1aff9882f4b89eebd053cae8ccde4e31a30213cbf5343c2c5fe12de89996 | https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray | page 1]\nManchester United’s century old stadium needs an upgrade. Photograph: Greig Cowie/Shutterstock\n\nCommunications\n\n[by_paragraph-7ce1bfa71e46378751a20edaabcab7319a6d95ac331599c233e286ba161a7b23 | https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray | page 1]\nTo find an apt shorthand for the lurching ship that is United, end the search at the roof of their stadium where on Manchester’s (many) wet days rain leaks through. Old Trafford remains a storied venue but as it continues to crumble the tale of disrepair has become a central narrative in its recent history. As Premier League titles have become scarce (zero in a decade) the tale of neglect of a ground that dates to 1910 is emblematic of the Glazers’ quasi‑absentee proprietorship. Ratcliffe will ",
+  "context_ids": [
+    "by_paragraph-89c8adaaca7d8e7980b7474d26e84664026489a9f4baada229b9519688b8dc6e",
+    "by_paragraph-79be1aff9882f4b89eebd053cae8ccde4e31a30213cbf5343c2c5fe12de89996",
+    "by_paragraph-7ce1bfa71e46378751a20edaabcab7319a6d95ac331599c233e286ba161a7b23"
+  ],
+  "context_budget_chars": 4000,
+  "context_chars": 1505,
+  "hit1": true,
+  "hit3": true,
+  "context_match": true,
+  "elapsed_ms": 1295.4655999783427,
+  "split": "test"
+}

@@ -1,0 +1,307 @@
+[
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q01",
+    "trace_sha256": "7699056129a7c8ed2e2ba139bd2906ba022e9695ce2e9c84f2f448be34740c83",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Betashares",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q02",
+    "trace_sha256": "c8b9b59e8c798389552a3e2424c355fd1ded2388333f3147704b8ba81f118ace",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Amazon detected that the Ripple Rug was advertised for a lower price elsewhere.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q03",
+    "trace_sha256": "42731bfbe9de4ed8aa6821553647e10227a52a9fba29a1ccf2150a12e2db936d",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: The Rosewood hotel in Menlo Park, California.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q04",
+    "trace_sha256": "af23c039adb66f0f91b9de2cbbef3ce510b26c4528e2d5f8d45523c28b366e42",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: $525 million at $3.80 per share.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q05",
+    "trace_sha256": "ecc23e179665baadb6196e8e301ded41baf229e6b3dbb00904c78d89bed8b658",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Focal Segmental Glomerulosclerosis.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q06",
+    "trace_sha256": "3d2ac9f6a9768ed867cf61e7c27ab8bae7120c037bec9102bd0b6bc7f5e90b2a",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Alameda Research.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q07",
+    "trace_sha256": "1287cf5150f46fdebcd5f65a91e3384c438164b4b7e1f542f47133fc9ffb8065",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: He borrowed NIS 255 million; NIS 120 million remained outstanding.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q08",
+    "trace_sha256": "9e09199fa1377cdc017daf224550c228259aaf65ee6f80f4b9cd82c013ce651f",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: They can lower stock prices and slow the economy by making borrowing more expensive.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q09",
+    "trace_sha256": "9d8e66d98bae0d14fd2979d6718b6f5ab951e9952fad7212b0152663371670df",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Thursdays at 12 p.m. PT.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q10",
+    "trace_sha256": "078dfca53fc5299741bb27adaf1581053cf370ce95643320a86b8444881b5bf6",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: $400 million, bringing its valuation to $32 billion.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q11",
+    "trace_sha256": "fb5314ea69d58d22f93fd05f48f78e460bd9b41d12e519af17af9175ab32293e",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Induced AI.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q12",
+    "trace_sha256": "a90911c2e452a47b57eba9b6f5e4a216e86a6b11c896265b9357044a18937004",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: The Information Services Agreement (ISA).",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q13",
+    "trace_sha256": "301216b00776b5b0f55f32af5b32c17aafc00799b48cd5d9d676e62521bb02fb",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Its APIs; the article describes this as a possible outcome, not a guaranteed requirement.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q14",
+    "trace_sha256": "36d20a8afe2b2ef389f79bc2e1d1fe9b84910e80ec0a953f2d365e364a0ecafb",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: Potential blocking of the service.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-q15",
+    "trace_sha256": "80f94666bf168a895ca28bacd1525255a8a395c1b4e20f952d5653bbcfc05add",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Compared with the supplied answer and cited evidence. Required fact: No. It says disinformation is not illegal per se, but the DSA obliges X to mitigate risks attached to harmful falsehoods.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-u01",
+    "trace_sha256": "3966c656bb282eee1abb63534942c37080ac6c4e64178b04dea1d07e9d1b3e01",
+    "answer_grade": null,
+    "context_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Correct corpus-scoped refusal. The article gives Ruckel's prices and losses, but no 2022 sales percentage. The 90% figure concerns Molson Hart, a different seller.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-dev-u02",
+    "trace_sha256": "7ce0fe96f11a15bc801dbb5de15c8f43e9ee6f5b7380565e07df89e607a7f2af",
+    "answer_grade": null,
+    "context_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Correct corpus-scoped refusal. Betashares is mentioned for an acquisition and funds under management, not its annual net profit.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": [],
+    "review_method": "AI inspection of supplied dev answers and evidence; not independent human-confirmed grading."
+  }
+]

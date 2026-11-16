@@ -1,0 +1,172 @@
+{
+  "query_id": "d7-test-05",
+  "method": "bm25",
+  "question": "According to the Menendez article, what was the reported dollar value of gold bars found in the raid on his house?",
+  "answerable": true,
+  "status": "ok",
+  "retrieval": {
+    "method": "bm25",
+    "query": "According to the Menendez article, what was the reported dollar value of gold bars found in the raid on his house?",
+    "filters": {},
+    "top_k": 3,
+    "candidate_k": 3,
+    "rrf_k": null,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC-casefold-word"
+    },
+    "dense_candidates": [],
+    "bm25_candidates": [
+      {
+        "id": "by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639",
+        "source_id": "doc_0098",
+        "source": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+        "page": 1,
+        "text": "Menendez’s own adherence to the law happens to also be in question. In September, the Justice Department charged him and his wife Nadine with accepting bribes and allegedly using his Senate seat to improperly aid the Egyptian government. A raid of Menendez’s house turned up $100,000 in gold bars and bundles of cash stuffed into jacket pockets. Menendez pleaded not guilty.",
+        "metadata": {
+          "url": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+          "title": "Sen. Robert Menendez, facing bribery charges, stumps bank CEOs by asking how much their firms paid in settlements for allegedly ripping off consumers",
+          "author": "Paolo Confino",
+          "source": "Fortune",
+          "unit_id": "doc_0098:unit_1",
+          "category": "business",
+          "end_line": 51,
+          "published": "2023-12-06T21:36:17+00:00",
+          "char_count": 5626,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0098_Sen._Robert_Menendez_facing_bribery_charges_stumps_bank_CEOs.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 42.03691435435653
+      },
+      {
+        "id": "by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31",
+        "source_id": "doc_0074",
+        "source": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+        "page": 1,
+        "text": "But, as reported six months ago, Zim has started to look for someone to buy his entire stake in the investment house, or at least part of it. One of the names mentioned in the press is that of Group Psagot CEO Yaniv Bender, who currently holds 7.4% of the company, as someone who could participate in such an acquisition.",
+        "metadata": {
+          "url": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+          "title": "Psagot worth 80% less since Rani Zim bought it",
+          "author": "Roi Weinberger",
+          "source": "Globes English | Israel Business Arena",
+          "unit_id": "doc_0074:unit_1",
+          "category": "business",
+          "end_line": 47,
+          "published": "2023-11-05T13:10:32+00:00",
+          "char_count": 6734,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0074_Psagot_worth_80_less_since_Rani_Zim_bought_it.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 24.388631844736356
+      },
+      {
+        "id": "by_paragraph-8fb0d14bc965e91598361bb9dbb5e23a03fc769e057c3e87d6e91dc412d901e5",
+        "source_id": "doc_0079",
+        "source": "https://en.globes.co.il/en/article-1001461695#utm_source=RSS",
+        "page": 1,
+        "text": "operatives. According to his analysis, this was because, prior to the Iron Dome coming into use in 2011, the most dangerous threat posed by Gaza developed in the period preceding Operation Protective Edge. The understandings that Israel reached with Hamas in 2012 were made \"to stop the fighting\", Ortal says, and to get life back to normal as quickly as possible. This, after air raid sirens sounded in Tel Aviv and Jerusalem for the first time since the Yom Kippur War, and the education system ",
+        "metadata": {
+          "url": "https://en.globes.co.il/en/article-1001461695#utm_source=RSS",
+          "title": "Israel's defense undone by reliance on technology",
+          "author": "Assaf Gilead",
+          "source": "Globes English | Israel Business Arena",
+          "unit_id": "doc_0079:unit_1",
+          "category": "business",
+          "end_line": 83,
+          "published": "2023-11-05T13:35:33+00:00",
+          "char_count": 21753,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0079_Israel_s_defense_undone_by_reliance_on_technology.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 23.035131976305074
+      }
+    ],
+    "results": [
+      {
+        "id": "by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639",
+        "source_id": "doc_0098",
+        "source": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+        "page": 1,
+        "text": "Menendez’s own adherence to the law happens to also be in question. In September, the Justice Department charged him and his wife Nadine with accepting bribes and allegedly using his Senate seat to improperly aid the Egyptian government. A raid of Menendez’s house turned up $100,000 in gold bars and bundles of cash stuffed into jacket pockets. Menendez pleaded not guilty.",
+        "metadata": {
+          "url": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+          "title": "Sen. Robert Menendez, facing bribery charges, stumps bank CEOs by asking how much their firms paid in settlements for allegedly ripping off consumers",
+          "author": "Paolo Confino",
+          "source": "Fortune",
+          "unit_id": "doc_0098:unit_1",
+          "category": "business",
+          "end_line": 51,
+          "published": "2023-12-06T21:36:17+00:00",
+          "char_count": 5626,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0098_Sen._Robert_Menendez_facing_bribery_charges_stumps_bank_CEOs.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 42.03691435435653
+      },
+      {
+        "id": "by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31",
+        "source_id": "doc_0074",
+        "source": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+        "page": 1,
+        "text": "But, as reported six months ago, Zim has started to look for someone to buy his entire stake in the investment house, or at least part of it. One of the names mentioned in the press is that of Group Psagot CEO Yaniv Bender, who currently holds 7.4% of the company, as someone who could participate in such an acquisition.",
+        "metadata": {
+          "url": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+          "title": "Psagot worth 80% less since Rani Zim bought it",
+          "author": "Roi Weinberger",
+          "source": "Globes English | Israel Business Arena",
+          "unit_id": "doc_0074:unit_1",
+          "category": "business",
+          "end_line": 47,
+          "published": "2023-11-05T13:10:32+00:00",
+          "char_count": 6734,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0074_Psagot_worth_80_less_since_Rani_Zim_bought_it.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 24.388631844736356
+      },
+      {
+        "id": "by_paragraph-8fb0d14bc965e91598361bb9dbb5e23a03fc769e057c3e87d6e91dc412d901e5",
+        "source_id": "doc_0079",
+        "source": "https://en.globes.co.il/en/article-1001461695#utm_source=RSS",
+        "page": 1,
+        "text": "operatives. According to his analysis, this was because, prior to the Iron Dome coming into use in 2011, the most dangerous threat posed by Gaza developed in the period preceding Operation Protective Edge. The understandings that Israel reached with Hamas in 2012 were made \"to stop the fighting\", Ortal says, and to get life back to normal as quickly as possible. This, after air raid sirens sounded in Tel Aviv and Jerusalem for the first time since the Yom Kippur War, and the education system ",
+        "metadata": {
+          "url": "https://en.globes.co.il/en/article-1001461695#utm_source=RSS",
+          "title": "Israel's defense undone by reliance on technology",
+          "author": "Assaf Gilead",
+          "source": "Globes English | Israel Business Arena",
+          "unit_id": "doc_0079:unit_1",
+          "category": "business",
+          "end_line": 83,
+          "published": "2023-11-05T13:35:33+00:00",
+          "char_count": 21753,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0079_Israel_s_defense_undone_by_reliance_on_technology.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 23.035131976305074
+      }
+    ],
+    "elapsed_ms": 6.18859997484833,
+    "embedding_usage": null
+  },
+  "context": "[by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639 | https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/ | page 1]\nMenendez’s own adherence to the law happens to also be in question. In September, the Justice Department charged him and his wife Nadine with accepting bribes and allegedly using his Senate seat to improperly aid the Egyptian government. A raid of Menendez’s house turned up $100,000 in gold bars and bundles of cash stuffed into jacket pockets. Menendez pleaded not guilty.\n\n[by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31 | https://en.globes.co.il/en/article-1001461693#utm_source=RSS | page 1]\nBut, as reported six months ago, Zim has started to look for someone to buy his entire stake in the investment house, or at least part of it. One of the names mentioned in the press is that of Group Psagot CEO Yaniv Bender, who currently holds 7.4% of the company, as someone who could participate in such an acquisition.\n\n[by_paragraph-8fb0d14bc965e91598361bb9dbb5e23a03fc769e057c3e87d6e91dc412d901e5 | https://en.globes.co.il/en/article-1001461695#utm_source=RSS | page 1]\noperatives. According to his analysis, this was because, prior to the Iron Dome coming into use in 2011, the most dangerous threat posed by Gaza developed in the period preceding Operation Protective Edge. The understandings that Israel reached with Hamas in 2012 were made \"to stop the fighting\", Ortal says, and to get life back to normal as quickly as possible. This, after air raid sirens sounded in Tel Aviv and Jerusalem for the first time since the Yom Kippur War, and the education system ",
+  "context_ids": [
+    "by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639",
+    "by_paragraph-eb0596f0f1143ab073ff6c0c637414881ec821f055343110e969f47ad916ff31",
+    "by_paragraph-8fb0d14bc965e91598361bb9dbb5e23a03fc769e057c3e87d6e91dc412d901e5"
+  ],
+  "context_budget_chars": 4000,
+  "context_chars": 1686,
+  "hit1": true,
+  "hit3": true,
+  "context_match": true,
+  "elapsed_ms": 6.2243000138551,
+  "split": "test"
+}

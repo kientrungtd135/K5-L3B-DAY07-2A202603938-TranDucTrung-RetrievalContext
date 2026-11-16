@@ -1,0 +1,43 @@
+{
+  "split": "dev",
+  "model": "deepseek-v4.1-flash",
+  "profiles": {
+    "auto_english_v2": {
+      "queries": 17,
+      "answered": 15,
+      "abstain": 2,
+      "errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "median_ms": 9047.944499994628,
+      "first_search_hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "first_search_hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "human_review": "pending; statuses are not answer-quality grades"
+    }
+  },
+  "cost_usd": null,
+  "notes": [
+    "Only dev was run. No test question was sent to the agent.",
+    "Gold and expected answers were used only after agent.run returned.",
+    "Agent first-search metrics use model-generated queries; original-query metrics are in results/retrieval_dev.",
+    "Context match is an exact-quote check, not a human context grade.",
+    "Answered/abstain are statuses, not correctness or abstention grades.",
+    "Model and embedding usage remain in each trace; USD conversion is unverified."
+  ]
+}

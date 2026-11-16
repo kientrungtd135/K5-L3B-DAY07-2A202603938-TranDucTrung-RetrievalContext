@@ -1,0 +1,778 @@
+{
+  "profiles": [
+    {
+      "run": "agent_dev_v1",
+      "split": "dev",
+      "profile": "dense_baseline",
+      "metrics": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 1,
+          "2": 13,
+          "N": 15,
+          "mean": 1.8
+        },
+        "citation_validity": {
+          "n": 16,
+          "N": 17
+        },
+        "answer_citation_coverage": {
+          "n": 14,
+          "N": 14
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 15
+        },
+        "context_grades": {
+          "2": 14,
+          "0": 1
+        },
+        "context_evidence": {
+          "n": 14,
+          "N": 15
+        },
+        "language_errors": 2,
+        "citation_format_errors": 0,
+        "review_statuses": {
+          "ai_proposed": 17
+        },
+        "failed_attempts": 0,
+        "median_ms": 5813.3929000468925,
+        "model_call_distribution": {
+          "2": 17
+        },
+        "search_call_distribution": {
+          "1": 17
+        }
+      },
+      "usage": {
+        "model_sdk_calls": 34,
+        "search_calls": 17,
+        "embedding_calls_with_trace": 17,
+        "format_repairs": 0,
+        "non_tool_model_turns": 0,
+        "model": {
+          "responses": 34,
+          "token_usage_responses": 34,
+          "total_tokens": 33469,
+          "cost_responses": 34,
+          "provider_cost_raw": 109.67999999999999
+        },
+        "embedding": {
+          "responses": 17,
+          "token_usage_responses": 17,
+          "total_tokens": 219,
+          "cost_responses": 17,
+          "provider_cost_raw": 102
+        }
+      }
+    },
+    {
+      "run": "agent_dev_v1",
+      "split": "dev",
+      "profile": "bm25_candidate",
+      "metrics": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 0,
+          "1": 1,
+          "2": 14,
+          "N": 15,
+          "mean": 1.9333333333333333
+        },
+        "citation_validity": {
+          "n": 18,
+          "N": 19
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence": {
+          "n": 15,
+          "N": 15
+        },
+        "language_errors": 4,
+        "citation_format_errors": 0,
+        "review_statuses": {
+          "ai_proposed": 17
+        },
+        "failed_attempts": 0,
+        "median_ms": 4331.579099991359,
+        "model_call_distribution": {
+          "2": 17
+        },
+        "search_call_distribution": {
+          "1": 17
+        }
+      },
+      "usage": {
+        "model_sdk_calls": 34,
+        "search_calls": 17,
+        "embedding_calls_with_trace": 0,
+        "format_repairs": 0,
+        "non_tool_model_turns": 0,
+        "model": {
+          "responses": 34,
+          "token_usage_responses": 34,
+          "total_tokens": 33897,
+          "cost_responses": 34,
+          "provider_cost_raw": 115.66
+        },
+        "embedding": {
+          "responses": 0,
+          "token_usage_responses": 0,
+          "total_tokens": null,
+          "cost_responses": 0,
+          "provider_cost_raw": null
+        }
+      }
+    },
+    {
+      "run": "agent_dev_v1",
+      "split": "dev",
+      "profile": "hybrid_candidate",
+      "metrics": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 0,
+          "1": 1,
+          "2": 14,
+          "N": 15,
+          "mean": 1.9333333333333333
+        },
+        "citation_validity": {
+          "n": 17,
+          "N": 18
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence": {
+          "n": 15,
+          "N": 15
+        },
+        "language_errors": 2,
+        "citation_format_errors": 1,
+        "review_statuses": {
+          "ai_proposed": 17
+        },
+        "failed_attempts": 0,
+        "median_ms": 5688.321699970402,
+        "model_call_distribution": {
+          "2": 17
+        },
+        "search_call_distribution": {
+          "1": 17
+        }
+      },
+      "usage": {
+        "model_sdk_calls": 34,
+        "search_calls": 17,
+        "embedding_calls_with_trace": 17,
+        "format_repairs": 0,
+        "non_tool_model_turns": 0,
+        "model": {
+          "responses": 34,
+          "token_usage_responses": 34,
+          "total_tokens": 33773,
+          "cost_responses": 34,
+          "provider_cost_raw": 123.74
+        },
+        "embedding": {
+          "responses": 17,
+          "token_usage_responses": 17,
+          "total_tokens": 212,
+          "cost_responses": 17,
+          "provider_cost_raw": 102
+        }
+      }
+    },
+    {
+      "run": "agent_dev_v1",
+      "split": "dev",
+      "profile": "auto_candidate",
+      "metrics": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 0,
+          "1": 0,
+          "2": 15,
+          "N": 15,
+          "mean": 2.0
+        },
+        "citation_validity": {
+          "n": 19,
+          "N": 19
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence": {
+          "n": 15,
+          "N": 15
+        },
+        "language_errors": 0,
+        "citation_format_errors": 0,
+        "review_statuses": {
+          "ai_proposed": 17
+        },
+        "failed_attempts": 0,
+        "median_ms": 7147.406799951568,
+        "model_call_distribution": {
+          "2": 13,
+          "4": 2,
+          "3": 2
+        },
+        "search_call_distribution": {
+          "2": 11,
+          "1": 2,
+          "3": 4
+        }
+      },
+      "usage": {
+        "model_sdk_calls": 40,
+        "search_calls": 36,
+        "embedding_calls_with_trace": 27,
+        "format_repairs": 0,
+        "non_tool_model_turns": 2,
+        "model": {
+          "responses": 40,
+          "token_usage_responses": 40,
+          "total_tokens": 55748,
+          "cost_responses": 40,
+          "provider_cost_raw": 135.2
+        },
+        "embedding": {
+          "responses": 27,
+          "token_usage_responses": 27,
+          "total_tokens": 343,
+          "cost_responses": 27,
+          "provider_cost_raw": 162
+        }
+      }
+    },
+    {
+      "run": "agent_dev_v2",
+      "split": "dev",
+      "profile": "auto_english_v2",
+      "metrics": {
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 0,
+          "1": 0,
+          "2": 15,
+          "N": 15,
+          "mean": 2.0
+        },
+        "citation_validity": {
+          "n": 18,
+          "N": 18
+        },
+        "answer_citation_coverage": {
+          "n": 15,
+          "N": 15
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 15
+        },
+        "context_grades": {
+          "2": 15
+        },
+        "context_evidence": {
+          "n": 15,
+          "N": 15
+        },
+        "language_errors": 0,
+        "citation_format_errors": 0,
+        "review_statuses": {
+          "ai_proposed": 17
+        },
+        "failed_attempts": 0,
+        "median_ms": 9047.944499994628,
+        "model_call_distribution": {
+          "2": 11,
+          "3": 5,
+          "4": 1
+        },
+        "search_call_distribution": {
+          "2": 11,
+          "1": 2,
+          "3": 4
+        }
+      },
+      "usage": {
+        "model_sdk_calls": 41,
+        "search_calls": 36,
+        "embedding_calls_with_trace": 26,
+        "format_repairs": 2,
+        "non_tool_model_turns": 2,
+        "model": {
+          "responses": 41,
+          "token_usage_responses": 41,
+          "total_tokens": 63502,
+          "cost_responses": 41,
+          "provider_cost_raw": 142.39
+        },
+        "embedding": {
+          "responses": 26,
+          "token_usage_responses": 26,
+          "total_tokens": 329,
+          "cost_responses": 26,
+          "provider_cost_raw": 156
+        }
+      }
+    },
+    {
+      "run": "agent_test_final",
+      "split": "test",
+      "profile": "dense_baseline",
+      "metrics": {
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 0,
+          "2": 4,
+          "N": 5,
+          "mean": 1.6
+        },
+        "citation_validity": {
+          "n": 5,
+          "N": 5
+        },
+        "answer_citation_coverage": {
+          "n": 4,
+          "N": 4
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 5
+        },
+        "context_grades": {
+          "2": 4,
+          "0": 1
+        },
+        "context_evidence": {
+          "n": 4,
+          "N": 5
+        },
+        "language_errors": 0,
+        "citation_format_errors": 0,
+        "review_statuses": {
+          "ai_proposed": 7
+        },
+        "failed_attempts": 0,
+        "median_ms": 5029.861799965147,
+        "model_call_distribution": {
+          "2": 7
+        },
+        "search_call_distribution": {
+          "1": 7
+        }
+      },
+      "usage": {
+        "model_sdk_calls": 14,
+        "search_calls": 7,
+        "embedding_calls_with_trace": 7,
+        "format_repairs": 0,
+        "non_tool_model_turns": 0,
+        "model": {
+          "responses": 14,
+          "token_usage_responses": 14,
+          "total_tokens": 13425,
+          "cost_responses": 14,
+          "provider_cost_raw": 43.32
+        },
+        "embedding": {
+          "responses": 7,
+          "token_usage_responses": 7,
+          "total_tokens": 77,
+          "cost_responses": 7,
+          "provider_cost_raw": 42
+        }
+      }
+    },
+    {
+      "run": "agent_test_final",
+      "split": "test",
+      "profile": "auto_english_v2",
+      "metrics": {
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 0,
+          "1": 0,
+          "2": 5,
+          "N": 5,
+          "mean": 2.0
+        },
+        "citation_validity": {
+          "n": 5,
+          "N": 5
+        },
+        "answer_citation_coverage": {
+          "n": 5,
+          "N": 5
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 5
+        },
+        "context_grades": {
+          "2": 5
+        },
+        "context_evidence": {
+          "n": 5,
+          "N": 5
+        },
+        "language_errors": 0,
+        "citation_format_errors": 0,
+        "review_statuses": {
+          "ai_proposed": 7
+        },
+        "failed_attempts": 0,
+        "median_ms": 9535.720099986065,
+        "model_call_distribution": {
+          "2": 4,
+          "6": 1,
+          "3": 2
+        },
+        "search_call_distribution": {
+          "2": 5,
+          "3": 2
+        }
+      },
+      "usage": {
+        "model_sdk_calls": 20,
+        "search_calls": 16,
+        "embedding_calls_with_trace": 10,
+        "format_repairs": 2,
+        "non_tool_model_turns": 1,
+        "model": {
+          "responses": 20,
+          "token_usage_responses": 20,
+          "total_tokens": 32040,
+          "cost_responses": 20,
+          "provider_cost_raw": 67.08
+        },
+        "embedding": {
+          "responses": 10,
+          "token_usage_responses": 10,
+          "total_tokens": 117,
+          "cost_responses": 10,
+          "provider_cost_raw": 60
+        }
+      }
+    }
+  ],
+  "original_query_usage": {
+    "dev_dense": {
+      "model_sdk_calls": 0,
+      "search_calls": 0,
+      "embedding_calls_with_trace": 17,
+      "format_repairs": 0,
+      "non_tool_model_turns": 0,
+      "model": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      },
+      "embedding": {
+        "responses": 17,
+        "token_usage_responses": 17,
+        "total_tokens": 387,
+        "cost_responses": 17,
+        "provider_cost_raw": 102
+      }
+    },
+    "test_dense": {
+      "model_sdk_calls": 0,
+      "search_calls": 0,
+      "embedding_calls_with_trace": 5,
+      "format_repairs": 0,
+      "non_tool_model_turns": 0,
+      "model": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      },
+      "embedding": {
+        "responses": 5,
+        "token_usage_responses": 5,
+        "total_tokens": 119,
+        "cost_responses": 5,
+        "provider_cost_raw": 30
+      }
+    },
+    "dev_bm25": {
+      "model_sdk_calls": 0,
+      "search_calls": 0,
+      "embedding_calls_with_trace": 0,
+      "format_repairs": 0,
+      "non_tool_model_turns": 0,
+      "model": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      },
+      "embedding": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      }
+    },
+    "test_bm25": {
+      "model_sdk_calls": 0,
+      "search_calls": 0,
+      "embedding_calls_with_trace": 0,
+      "format_repairs": 0,
+      "non_tool_model_turns": 0,
+      "model": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      },
+      "embedding": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      }
+    },
+    "dev_hybrid": {
+      "model_sdk_calls": 0,
+      "search_calls": 0,
+      "embedding_calls_with_trace": 17,
+      "format_repairs": 0,
+      "non_tool_model_turns": 0,
+      "model": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      },
+      "embedding": {
+        "responses": 17,
+        "token_usage_responses": 17,
+        "total_tokens": 387,
+        "cost_responses": 17,
+        "provider_cost_raw": 102
+      }
+    },
+    "test_hybrid": {
+      "model_sdk_calls": 0,
+      "search_calls": 0,
+      "embedding_calls_with_trace": 5,
+      "format_repairs": 0,
+      "non_tool_model_turns": 0,
+      "model": {
+        "responses": 0,
+        "token_usage_responses": 0,
+        "total_tokens": null,
+        "cost_responses": 0,
+        "provider_cost_raw": null
+      },
+      "embedding": {
+        "responses": 5,
+        "token_usage_responses": 5,
+        "total_tokens": 119,
+        "cost_responses": 5,
+        "provider_cost_raw": 30
+      }
+    }
+  },
+  "raw_retrieval_dev": {
+    "dense": {
+      "queries": 17,
+      "errors": 0,
+      "median_ms": 1575.7132999715395,
+      "hit1": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      }
+    },
+    "bm25": {
+      "queries": 17,
+      "errors": 0,
+      "median_ms": 3.056999994441867,
+      "hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      }
+    },
+    "hybrid": {
+      "queries": 17,
+      "errors": 0,
+      "median_ms": 1547.1359000075608,
+      "hit1": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      }
+    }
+  },
+  "raw_retrieval_test": {
+    "dense": {
+      "N": 5,
+      "hit1": 5,
+      "hit3": 5,
+      "context_match": 5,
+      "errors": 0,
+      "median_ms": 1353.7755000288598
+    },
+    "bm25": {
+      "N": 5,
+      "hit1": 4,
+      "hit3": 4,
+      "context_match": 4,
+      "errors": 0,
+      "median_ms": 8.238200040068477
+    },
+    "hybrid": {
+      "N": 5,
+      "hit1": 4,
+      "hit3": 4,
+      "context_match": 4,
+      "errors": 0,
+      "median_ms": 1428.9879000280052
+    }
+  },
+  "notes": [
+    "AI-proposed review is not independent human confirmation.",
+    "Citations include undeclared inline IDs; original traces/reviews remain unchanged.",
+    "Usage covers returned trace data and saved failures; excludes smoke checks and Day 6 indexing.",
+    "SDK call counts exclude hidden HTTP retries. Provider cost units are unverified, not USD."
+  ]
+}

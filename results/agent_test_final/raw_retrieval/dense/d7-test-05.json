@@ -1,0 +1,181 @@
+{
+  "query_id": "d7-test-05",
+  "method": "dense",
+  "question": "According to the Menendez article, what was the reported dollar value of gold bars found in the raid on his house?",
+  "answerable": true,
+  "status": "ok",
+  "retrieval": {
+    "method": "dense",
+    "query": "According to the Menendez article, what was the reported dollar value of gold bars found in the raid on his house?",
+    "filters": {},
+    "top_k": 3,
+    "candidate_k": 3,
+    "rrf_k": null,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC-casefold-word"
+    },
+    "dense_candidates": [
+      {
+        "id": "by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639",
+        "source_id": "doc_0098",
+        "source": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+        "page": 1,
+        "text": "Menendez’s own adherence to the law happens to also be in question. In September, the Justice Department charged him and his wife Nadine with accepting bribes and allegedly using his Senate seat to improperly aid the Egyptian government. A raid of Menendez’s house turned up $100,000 in gold bars and bundles of cash stuffed into jacket pockets. Menendez pleaded not guilty.",
+        "metadata": {
+          "url": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+          "title": "Sen. Robert Menendez, facing bribery charges, stumps bank CEOs by asking how much their firms paid in settlements for allegedly ripping off consumers",
+          "author": "Paolo Confino",
+          "source": "Fortune",
+          "unit_id": "doc_0098:unit_1",
+          "category": "business",
+          "end_line": 51,
+          "published": "2023-12-06T21:36:17+00:00",
+          "char_count": 5626,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0098_Sen._Robert_Menendez_facing_bribery_charges_stumps_bank_CEOs.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5075064824605531
+      },
+      {
+        "id": "by_paragraph-e038c197c20d3d96f5f09473533b7c817137ec2bb6f2eefce1257e3dd9a5f93f",
+        "source_id": "doc_0032",
+        "source": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+        "page": 1,
+        "text": "But “all of that, all of it, was built on lies,” Rehn declared to the jury. “Behind the curtains, he was not what he appeared to be.” What followed was a roughly 30-minute story that repeatedly emphasized how Bankman-Fried allegedly stole customer funds to facilitate his jet-setting lifestyle, donate millions to political candidates, and finance risky bets.",
+        "metadata": {
+          "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "author": "Ben Weiss",
+          "source": "Fortune",
+          "unit_id": "doc_0032:unit_1",
+          "category": "business",
+          "end_line": 59,
+          "published": "2023-10-04T23:32:53+00:00",
+          "char_count": 5911,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0032_Is_Sam_Bankman-Fried_a_bad_man_or_a_good_boy_Lawyers_swap_op.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.31601091814744886
+      },
+      {
+        "id": "by_paragraph-15513d4de76990feebf95057ffb571788cf0b4c57635616cd7b3e1e5260b13d7",
+        "source_id": "doc_0032",
+        "source": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+        "page": 1,
+        "text": "The key to his alleged scheme? Alameda Research, a crypto hedge fund he also owned, argued Rehn. Using Caroline Ellison, his on-again off-again girlfriend and the CEO of Alameda, as a front, Bankman-Fried had “secret access” to customer money—both cash and crypto—the government claimed.",
+        "metadata": {
+          "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "author": "Ben Weiss",
+          "source": "Fortune",
+          "unit_id": "doc_0032:unit_1",
+          "category": "business",
+          "end_line": 59,
+          "published": "2023-10-04T23:32:53+00:00",
+          "char_count": 5911,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0032_Is_Sam_Bankman-Fried_a_bad_man_or_a_good_boy_Lawyers_swap_op.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.31561671547933634
+      }
+    ],
+    "bm25_candidates": [],
+    "results": [
+      {
+        "id": "by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639",
+        "source_id": "doc_0098",
+        "source": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+        "page": 1,
+        "text": "Menendez’s own adherence to the law happens to also be in question. In September, the Justice Department charged him and his wife Nadine with accepting bribes and allegedly using his Senate seat to improperly aid the Egyptian government. A raid of Menendez’s house turned up $100,000 in gold bars and bundles of cash stuffed into jacket pockets. Menendez pleaded not guilty.",
+        "metadata": {
+          "url": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+          "title": "Sen. Robert Menendez, facing bribery charges, stumps bank CEOs by asking how much their firms paid in settlements for allegedly ripping off consumers",
+          "author": "Paolo Confino",
+          "source": "Fortune",
+          "unit_id": "doc_0098:unit_1",
+          "category": "business",
+          "end_line": 51,
+          "published": "2023-12-06T21:36:17+00:00",
+          "char_count": 5626,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0098_Sen._Robert_Menendez_facing_bribery_charges_stumps_bank_CEOs.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.5075064824605531
+      },
+      {
+        "id": "by_paragraph-e038c197c20d3d96f5f09473533b7c817137ec2bb6f2eefce1257e3dd9a5f93f",
+        "source_id": "doc_0032",
+        "source": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+        "page": 1,
+        "text": "But “all of that, all of it, was built on lies,” Rehn declared to the jury. “Behind the curtains, he was not what he appeared to be.” What followed was a roughly 30-minute story that repeatedly emphasized how Bankman-Fried allegedly stole customer funds to facilitate his jet-setting lifestyle, donate millions to political candidates, and finance risky bets.",
+        "metadata": {
+          "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "author": "Ben Weiss",
+          "source": "Fortune",
+          "unit_id": "doc_0032:unit_1",
+          "category": "business",
+          "end_line": 59,
+          "published": "2023-10-04T23:32:53+00:00",
+          "char_count": 5911,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0032_Is_Sam_Bankman-Fried_a_bad_man_or_a_good_boy_Lawyers_swap_op.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.31601091814744886
+      },
+      {
+        "id": "by_paragraph-15513d4de76990feebf95057ffb571788cf0b4c57635616cd7b3e1e5260b13d7",
+        "source_id": "doc_0032",
+        "source": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+        "page": 1,
+        "text": "The key to his alleged scheme? Alameda Research, a crypto hedge fund he also owned, argued Rehn. Using Caroline Ellison, his on-again off-again girlfriend and the CEO of Alameda, as a front, Bankman-Fried had “secret access” to customer money—both cash and crypto—the government claimed.",
+        "metadata": {
+          "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "author": "Ben Weiss",
+          "source": "Fortune",
+          "unit_id": "doc_0032:unit_1",
+          "category": "business",
+          "end_line": 59,
+          "published": "2023-10-04T23:32:53+00:00",
+          "char_count": 5911,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0032_Is_Sam_Bankman-Fried_a_bad_man_or_a_good_boy_Lawyers_swap_op.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 0.31561671547933634
+      }
+    ],
+    "elapsed_ms": 1408.03789999336,
+    "embedding_usage": {
+      "prompt_tokens": 24,
+      "total_tokens": 24,
+      "completion_tokens": 0,
+      "x_ckey": {
+        "cost": 6,
+        "cost_is_estimate": false,
+        "request_id": "req_92c63c3f0b0e528330a81b09"
+      }
+    }
+  },
+  "context": "[by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639 | https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/ | page 1]\nMenendez’s own adherence to the law happens to also be in question. In September, the Justice Department charged him and his wife Nadine with accepting bribes and allegedly using his Senate seat to improperly aid the Egyptian government. A raid of Menendez’s house turned up $100,000 in gold bars and bundles of cash stuffed into jacket pockets. Menendez pleaded not guilty.\n\n[by_paragraph-e038c197c20d3d96f5f09473533b7c817137ec2bb6f2eefce1257e3dd9a5f93f | https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/ | page 1]\nBut “all of that, all of it, was built on lies,” Rehn declared to the jury. “Behind the curtains, he was not what he appeared to be.” What followed was a roughly 30-minute story that repeatedly emphasized how Bankman-Fried allegedly stole customer funds to facilitate his jet-setting lifestyle, donate millions to political candidates, and finance risky bets.\n\n[by_paragraph-15513d4de76990feebf95057ffb571788cf0b4c57635616cd7b3e1e5260b13d7 | https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/ | page 1]\nThe key to his alleged scheme? Alameda Research, a crypto hedge fund he also owned, argued Rehn. Using Caroline Ellison, his on-again off-again girlfriend and the CEO of Alameda, as a front, Bankman-Fried had “secret access” to customer money—both cash and crypto—the government claimed.",
+  "context_ids": [
+    "by_paragraph-4fb15dfec59b2bb48301a72153dc41f2afdb78853c226d21c6f7171a15397639",
+    "by_paragraph-e038c197c20d3d96f5f09473533b7c817137ec2bb6f2eefce1257e3dd9a5f93f",
+    "by_paragraph-15513d4de76990feebf95057ffb571788cf0b4c57635616cd7b3e1e5260b13d7"
+  ],
+  "context_budget_chars": 4000,
+  "context_chars": 1716,
+  "hit1": true,
+  "hit3": true,
+  "context_match": true,
+  "elapsed_ms": 1408.0856000073254,
+  "split": "test"
+}

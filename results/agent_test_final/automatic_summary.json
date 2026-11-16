@@ -1,0 +1,94 @@
+{
+  "split": "test",
+  "profiles": {
+    "dense_baseline": {
+      "queries": 7,
+      "answered": 4,
+      "abstain": 3,
+      "errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7,
+        "rate": 1.0
+      },
+      "median_ms": 5029.861799965147,
+      "first_search_hit1": {
+        "n": 3,
+        "N": 5,
+        "rate": 0.6
+      },
+      "first_search_hit3": {
+        "n": 4,
+        "N": 5,
+        "rate": 0.8
+      },
+      "context_match": {
+        "n": 4,
+        "N": 5,
+        "rate": 0.8
+      },
+      "human_review": "pending; statuses are not answer-quality grades"
+    },
+    "auto_english_v2": {
+      "queries": 7,
+      "answered": 5,
+      "abstain": 2,
+      "errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7,
+        "rate": 1.0
+      },
+      "median_ms": 9535.720099986065,
+      "first_search_hit1": {
+        "n": 2,
+        "N": 5,
+        "rate": 0.4
+      },
+      "first_search_hit3": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "context_match": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      },
+      "human_review": "pending; statuses are not answer-quality grades"
+    }
+  },
+  "raw_retrieval": {
+    "dense": {
+      "N": 5,
+      "hit1": 5,
+      "hit3": 5,
+      "context_match": 5,
+      "errors": 0,
+      "median_ms": 1353.7755000288598
+    },
+    "bm25": {
+      "N": 5,
+      "hit1": 4,
+      "hit3": 4,
+      "context_match": 4,
+      "errors": 0,
+      "median_ms": 8.238200040068477
+    },
+    "hybrid": {
+      "N": 5,
+      "hit1": 4,
+      "hit3": 4,
+      "context_match": 4,
+      "errors": 0,
+      "median_ms": 1428.9879000280052
+    }
+  },
+  "review_status": "pending",
+  "cost_usd": null,
+  "notes": [
+    "No test-based tuning; frozen pipeline.",
+    "Original-query rankings and model-rewritten first-search rankings are separate.",
+    "Answer correctness and citation support require source review."
+  ]
+}

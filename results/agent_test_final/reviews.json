@@ -1,0 +1,231 @@
+[
+  {
+    "profile_id": "dense_baseline",
+    "query_id": "d7-test-01",
+    "trace_sha256": "a7e388e4981c87f7f506c37947da098f055ce8fd82fd57988bde2f6b95631889",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: Around 9 zettabytes (9 ZB) per year. Both cited chunks jointly support the added 2023 comparison.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "dense_baseline",
+    "query_id": "d7-test-02",
+    "trace_sha256": "9346cc034eca9a1365b42264d7224cb1515e852fb2ab176a89fc6738abdbe9e5",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": null,
+    "reason": "False abstention. Retrieved context lacks the requested counts, but doc_0034 in the corpus states 500 billion facts about 5 billion entities by 2020.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "dense_baseline",
+    "query_id": "d7-test-03",
+    "trace_sha256": "a9e0c7eb7ab3b2ef7da82d6c64d20a53d27606f8554e9ba252a4e290d64feb94",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: 15% to 30%.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "dense_baseline",
+    "query_id": "d7-test-04",
+    "trace_sha256": "b8ce1705df0cc1e6a383c55b434cd97943a7439d750a3b8dfe210c77e4405483",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: US$300 million, equivalent to 237 million pounds.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "dense_baseline",
+    "query_id": "d7-test-05",
+    "trace_sha256": "64affdb0407b7def7b181ac6737e64c767ebf6dbc43aa9ed5d9b969fbe9642a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: $100,000.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "dense_baseline",
+    "query_id": "d7-test-u01",
+    "trace_sha256": "709d33d94a08d81f13e1cbcb3c6932b0d0583e15fd688905ecbadc6f297a7028",
+    "answer_grade": null,
+    "context_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Correct abstention for this corpus benchmark. The article describes a private beta and moderation plans but gives no monthly subscription price. Absence of a price does not imply a zero-dollar price.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "dense_baseline",
+    "query_id": "d7-test-u02",
+    "trace_sha256": "79c8c4e6a346dd8a3a4e9c724012b02ed88756898f55f2be479203e107074966",
+    "answer_grade": null,
+    "context_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Correct abstention for this corpus benchmark. The snapshot describes a newly filed lawsuit and requested relief, not a damages award. Google's Canadian media agreement is a different matter.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-test-01",
+    "trace_sha256": "908e471c2e6a61379c400dc0a71e8fdfa7061f35507bfe41b3c3a8798cf1b40b",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: Around 9 zettabytes (9 ZB) per year.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-test-02",
+    "trace_sha256": "0f57f49846c8176acf6dec87178a2b768ea9e1a1d7cb1d511f3faae40195b44b",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: 500 billion facts about 5 billion entities.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-test-03",
+    "trace_sha256": "f0d61994ff03bb0e30545c9f27bf2b210748326d64004d34418a1f73a219275e",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: 15% to 30%. Final answer is supported after two logged citation repairs.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-test-04",
+    "trace_sha256": "1c5a84024881e2acaaa7579c96576b82ba8b261ad28ffa1268495040c84d3026",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: US$300 million, equivalent to 237 million pounds.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-test-05",
+    "trace_sha256": "217f85b36b4bfa8a18995c092a4adb7ba3cb98a9da53d6de448123593e6a2af5",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": null,
+    "reason": "Answer and cited evidence were inspected in the supplied test packet. Required fact: $100,000.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-test-u01",
+    "trace_sha256": "9bad3a4d24531004de99dff5a06c66b323fb36c635818a0459113ada25da9955",
+    "answer_grade": null,
+    "context_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Correct abstention for this corpus benchmark. The article describes a private beta and moderation plans but gives no monthly subscription price. Absence of a price does not imply a zero-dollar price.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  },
+  {
+    "profile_id": "auto_english_v2",
+    "query_id": "d7-test-u02",
+    "trace_sha256": "484913d5c9b4b007b128b084a6a8dcdda5eb61101f17fa084e1f92c579263c60",
+    "answer_grade": null,
+    "context_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Correct abstention for this corpus benchmark. The snapshot describes a newly filed lawsuit and requested relief, not a damages award. Google's Canadian media agreement is a different matter.",
+    "review_status": "ai_proposed",
+    "language_ok": true,
+    "citation_format_ok": true,
+    "unlisted_inline_citations": [],
+    "unlisted_inline_support": []
+  }
+]

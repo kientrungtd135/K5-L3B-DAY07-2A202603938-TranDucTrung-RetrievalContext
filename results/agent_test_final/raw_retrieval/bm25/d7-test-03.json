@@ -1,0 +1,172 @@
+{
+  "query_id": "d7-test-03",
+  "method": "bm25",
+  "question": "According to the Epic Games trial preview, what commission range did Google charge app developers on sales processed through its first-party billing system?",
+  "answerable": true,
+  "status": "ok",
+  "retrieval": {
+    "method": "bm25",
+    "query": "According to the Epic Games trial preview, what commission range did Google charge app developers on sales processed through its first-party billing system?",
+    "filters": {},
+    "top_k": 3,
+    "candidate_k": 3,
+    "rrf_k": null,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC-casefold-word"
+    },
+    "dense_candidates": [],
+    "bm25_candidates": [
+      {
+        "id": "by_paragraph-ad54cbc8ebbf6dd5bdae7bad3d6f63af951742add1409beb713ec22d9940104a",
+        "source_id": "doc_0043",
+        "source": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+        "page": 1,
+        "text": "Google argues its commissions aren’t just tied to billing, but offers discount for third-party billing options\n\nToday, Google requires apps to use its own first-party billing system, and charges app developers a 15% to 30% commission on the sales it processes.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0043:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-11-06T16:47:11+00:00",
+          "char_count": 7503,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0043_What_to_know_about_Fortnite_maker_Epic_Games_antitrust_battl.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 48.58765698461212
+      },
+      {
+        "id": "by_paragraph-a15758eeb81d561c592822db7d188808580020e6bb3e20e92059071a970022c5",
+        "source_id": "doc_0043",
+        "source": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+        "page": 1,
+        "text": "However, Google will counter Epic’s arguments by pointing out that it has rolled out a new option for app developers called User Choice Billing, which Epic has declined to use. This program, still in pilot testing, is open to all developers who sell apps in the 35 markets where it’s now available, including the U.S., and reduces the standard commission by 4% for companies who choose to use their own payment processing solution. Spotify and Bumble were the initial testers for the new system, ",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0043:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-11-06T16:47:11+00:00",
+          "char_count": 7503,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0043_What_to_know_about_Fortnite_maker_Epic_Games_antitrust_battl.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 28.678189606323155
+      },
+      {
+        "id": "by_paragraph-bacbbbe9468b318218040140564f33d73b119bce2511471a4735807e9a5d6036",
+        "source_id": "doc_0043",
+        "source": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+        "page": 1,
+        "text": "Epic will also bring up “Anti-Fragmentation Agreements” (AFAs) that prevent the OEMs from modifying Android to allow for frictionless downloading of apps outside of Google Play. Epic Games will specifically reference one agreement it had made with the OEM OnePlus, to make Epic games available on its devices through the Epic Games app. But OnePlus had to cancel the deal over concerns that the arrangement would have it bypassing the Google Play Store. The case will also examine a deal between ",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0043:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-11-06T16:47:11+00:00",
+          "char_count": 7503,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0043_What_to_know_about_Fortnite_maker_Epic_Games_antitrust_battl.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 26.44999359884937
+      }
+    ],
+    "results": [
+      {
+        "id": "by_paragraph-ad54cbc8ebbf6dd5bdae7bad3d6f63af951742add1409beb713ec22d9940104a",
+        "source_id": "doc_0043",
+        "source": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+        "page": 1,
+        "text": "Google argues its commissions aren’t just tied to billing, but offers discount for third-party billing options\n\nToday, Google requires apps to use its own first-party billing system, and charges app developers a 15% to 30% commission on the sales it processes.",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0043:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-11-06T16:47:11+00:00",
+          "char_count": 7503,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0043_What_to_know_about_Fortnite_maker_Epic_Games_antitrust_battl.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 48.58765698461212
+      },
+      {
+        "id": "by_paragraph-a15758eeb81d561c592822db7d188808580020e6bb3e20e92059071a970022c5",
+        "source_id": "doc_0043",
+        "source": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+        "page": 1,
+        "text": "However, Google will counter Epic’s arguments by pointing out that it has rolled out a new option for app developers called User Choice Billing, which Epic has declined to use. This program, still in pilot testing, is open to all developers who sell apps in the 35 markets where it’s now available, including the U.S., and reduces the standard commission by 4% for companies who choose to use their own payment processing solution. Spotify and Bumble were the initial testers for the new system, ",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0043:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-11-06T16:47:11+00:00",
+          "char_count": 7503,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0043_What_to_know_about_Fortnite_maker_Epic_Games_antitrust_battl.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 28.678189606323155
+      },
+      {
+        "id": "by_paragraph-bacbbbe9468b318218040140564f33d73b119bce2511471a4735807e9a5d6036",
+        "source_id": "doc_0043",
+        "source": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+        "page": 1,
+        "text": "Epic will also bring up “Anti-Fragmentation Agreements” (AFAs) that prevent the OEMs from modifying Android to allow for frictionless downloading of apps outside of Google Play. Epic Games will specifically reference one agreement it had made with the OEM OnePlus, to make Epic games available on its devices through the Epic Games app. But OnePlus had to cancel the deal over concerns that the arrangement would have it bypassing the Google Play Store. The case will also examine a deal between ",
+        "metadata": {
+          "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "author": "Sarah Perez",
+          "source": "TechCrunch",
+          "unit_id": "doc_0043:unit_1",
+          "category": "technology",
+          "end_line": 51,
+          "published": "2023-11-06T16:47:11+00:00",
+          "char_count": 7503,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0043_What_to_know_about_Fortnite_maker_Epic_Games_antitrust_battl.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 26.44999359884937
+      }
+    ],
+    "elapsed_ms": 10.303499992005527,
+    "embedding_usage": null
+  },
+  "context": "[by_paragraph-ad54cbc8ebbf6dd5bdae7bad3d6f63af951742add1409beb713ec22d9940104a | https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/ | page 1]\nGoogle argues its commissions aren’t just tied to billing, but offers discount for third-party billing options\n\nToday, Google requires apps to use its own first-party billing system, and charges app developers a 15% to 30% commission on the sales it processes.\n\n[by_paragraph-a15758eeb81d561c592822db7d188808580020e6bb3e20e92059071a970022c5 | https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/ | page 1]\nHowever, Google will counter Epic’s arguments by pointing out that it has rolled out a new option for app developers called User Choice Billing, which Epic has declined to use. This program, still in pilot testing, is open to all developers who sell apps in the 35 markets where it’s now available, including the U.S., and reduces the standard commission by 4% for companies who choose to use their own payment processing solution. Spotify and Bumble were the initial testers for the new system, \n\n[by_paragraph-bacbbbe9468b318218040140564f33d73b119bce2511471a4735807e9a5d6036 | https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/ | page 1]\nEpic will also bring up “Anti-Fragmentation Agreements” (AFAs) that prevent the OEMs from modifying Android to allow for frictionless downloading of apps outside of Google Play. Epic Games will specifically reference one agreement it had made with the OEM OnePlus, to make Epic games available on its devices through the Epic Games app. But OnePlus had to cancel the deal over concerns that the arrangement would have it bypassing the Google Play Store. The case will also examine a deal between ",
+  "context_ids": [
+    "by_paragraph-ad54cbc8ebbf6dd5bdae7bad3d6f63af951742add1409beb713ec22d9940104a",
+    "by_paragraph-a15758eeb81d561c592822db7d188808580020e6bb3e20e92059071a970022c5",
+    "by_paragraph-bacbbbe9468b318218040140564f33d73b119bce2511471a4735807e9a5d6036"
+  ],
+  "context_budget_chars": 4000,
+  "context_chars": 1901,
+  "hit1": true,
+  "hit3": true,
+  "context_match": true,
+  "elapsed_ms": 10.355899983551353,
+  "split": "test"
+}

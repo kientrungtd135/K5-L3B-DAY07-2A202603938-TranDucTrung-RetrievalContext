@@ -1,0 +1,172 @@
+{
+  "query_id": "d7-test-01",
+  "method": "bm25",
+  "question": "According to the Google Search article, approximately how many zettabytes of data were people creating every year in 2013?",
+  "answerable": true,
+  "status": "ok",
+  "retrieval": {
+    "method": "bm25",
+    "query": "According to the Google Search article, approximately how many zettabytes of data were people creating every year in 2013?",
+    "filters": {},
+    "top_k": 3,
+    "candidate_k": 3,
+    "rrf_k": null,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC-casefold-word"
+    },
+    "dense_candidates": [],
+    "bm25_candidates": [
+      {
+        "id": "by_paragraph-d8e7f97a168ae7074647c17eaaea90b1c233730fc5580ea3d04ebbe1f0a12211",
+        "source_id": "doc_0033",
+        "source": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+        "page": 1,
+        "text": "Similarly, it’s also pretty common to see people complaining on the internet with some variation of “Google Search was a lot better 10 years ago”, which could absolutely be true. But it would be a stretch to assume that’s because of the company’s monetisation practices, when there’s a much simpler explanation. In 2013, people were creating around 9 ZB of data every year (that’s nine zettabytes, or nine trillion gigabytes), which Google had to index constantly, whereas in 2023 it’s more like 120 ",
+        "metadata": {
+          "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "author": "Tim Biggs",
+          "source": "The Age",
+          "unit_id": "doc_0033:unit_1",
+          "category": "technology",
+          "end_line": 21,
+          "published": "2023-10-22T18:00:00+00:00",
+          "char_count": 7655,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0033_Is_Google_Search_better_than_the_rest_And_is_that_fair.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 37.61941885605352
+      },
+      {
+        "id": "by_paragraph-3fb77a3855ced0e8f59949306114fc206d3ee11f06effe86ecf1b3161d2d2ad8",
+        "source_id": "doc_0086",
+        "source": "https://www.musicbusinessworldwide.com/afrofutures-vision-is-to-bring-african-art-cuisine-fashion-and-music-to-a-global-audience/",
+        "page": 1,
+        "text": "Tell us about the impact that Afrofuture has had on the country’s local tourism industry…\n\nThe local impact of AfroFuture is significant. Every year, we make an effort to employ Ghanians to aid our festival and surrounding activities to support the local community.\n\nIn 2019 alone, AfroFuture helped bring in $2.1 billion in tourism revenue for “Year of Return” and the festival is expected to generate approximately 16% of the country’s tourism [this year].",
+        "metadata": {
+          "url": "https://www.musicbusinessworldwide.com/afrofutures-vision-is-to-bring-african-art-cuisine-fashion-and-music-to-a-global-audience/",
+          "title": "‘AfroFuture’s vision is to bring African art, cuisine, fashion, and music to a global audience.’",
+          "author": "Murray Stassen",
+          "source": "Music Business Worldwide",
+          "unit_id": "doc_0086:unit_1",
+          "category": "business",
+          "end_line": 139,
+          "published": "2023-10-30T20:29:31+00:00",
+          "char_count": 14775,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0086_AfroFuture_s_vision_is_to_bring_African_art_cuisine_fashion_.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 21.20220023141352
+      },
+      {
+        "id": "by_paragraph-1a1ab479e9e529ac9944256d9e3063e30b69cead6534d06899856834095c928c",
+        "source_id": "doc_0033",
+        "source": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+        "page": 1,
+        "text": "The process of this test did remind me how much data Google collects — not just my searches but anything I say to a smart speaker, any search result or ad that I click — which will be a point in favour of DuckDuckGo for some, even if it didn’t perform as well and is harder to read. The data collection does also mean that Google (not just search but also mobile widgets and other services) personalises to me more effectively. Loading Bing has overhauled its layout over the past year to be very ",
+        "metadata": {
+          "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "author": "Tim Biggs",
+          "source": "The Age",
+          "unit_id": "doc_0033:unit_1",
+          "category": "technology",
+          "end_line": 21,
+          "published": "2023-10-22T18:00:00+00:00",
+          "char_count": 7655,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0033_Is_Google_Search_better_than_the_rest_And_is_that_fair.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 19.17374029976283
+      }
+    ],
+    "results": [
+      {
+        "id": "by_paragraph-d8e7f97a168ae7074647c17eaaea90b1c233730fc5580ea3d04ebbe1f0a12211",
+        "source_id": "doc_0033",
+        "source": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+        "page": 1,
+        "text": "Similarly, it’s also pretty common to see people complaining on the internet with some variation of “Google Search was a lot better 10 years ago”, which could absolutely be true. But it would be a stretch to assume that’s because of the company’s monetisation practices, when there’s a much simpler explanation. In 2013, people were creating around 9 ZB of data every year (that’s nine zettabytes, or nine trillion gigabytes), which Google had to index constantly, whereas in 2023 it’s more like 120 ",
+        "metadata": {
+          "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "author": "Tim Biggs",
+          "source": "The Age",
+          "unit_id": "doc_0033:unit_1",
+          "category": "technology",
+          "end_line": 21,
+          "published": "2023-10-22T18:00:00+00:00",
+          "char_count": 7655,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0033_Is_Google_Search_better_than_the_rest_And_is_that_fair.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 37.61941885605352
+      },
+      {
+        "id": "by_paragraph-3fb77a3855ced0e8f59949306114fc206d3ee11f06effe86ecf1b3161d2d2ad8",
+        "source_id": "doc_0086",
+        "source": "https://www.musicbusinessworldwide.com/afrofutures-vision-is-to-bring-african-art-cuisine-fashion-and-music-to-a-global-audience/",
+        "page": 1,
+        "text": "Tell us about the impact that Afrofuture has had on the country’s local tourism industry…\n\nThe local impact of AfroFuture is significant. Every year, we make an effort to employ Ghanians to aid our festival and surrounding activities to support the local community.\n\nIn 2019 alone, AfroFuture helped bring in $2.1 billion in tourism revenue for “Year of Return” and the festival is expected to generate approximately 16% of the country’s tourism [this year].",
+        "metadata": {
+          "url": "https://www.musicbusinessworldwide.com/afrofutures-vision-is-to-bring-african-art-cuisine-fashion-and-music-to-a-global-audience/",
+          "title": "‘AfroFuture’s vision is to bring African art, cuisine, fashion, and music to a global audience.’",
+          "author": "Murray Stassen",
+          "source": "Music Business Worldwide",
+          "unit_id": "doc_0086:unit_1",
+          "category": "business",
+          "end_line": 139,
+          "published": "2023-10-30T20:29:31+00:00",
+          "char_count": 14775,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/business/doc_0086_AfroFuture_s_vision_is_to_bring_African_art_cuisine_fashion_.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 21.20220023141352
+      },
+      {
+        "id": "by_paragraph-1a1ab479e9e529ac9944256d9e3063e30b69cead6534d06899856834095c928c",
+        "source_id": "doc_0033",
+        "source": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+        "page": 1,
+        "text": "The process of this test did remind me how much data Google collects — not just my searches but anything I say to a smart speaker, any search result or ad that I click — which will be a point in favour of DuckDuckGo for some, even if it didn’t perform as well and is harder to read. The data collection does also mean that Google (not just search but also mobile widgets and other services) personalises to me more effectively. Loading Bing has overhauled its layout over the past year to be very ",
+        "metadata": {
+          "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "author": "Tim Biggs",
+          "source": "The Age",
+          "unit_id": "doc_0033:unit_1",
+          "category": "technology",
+          "end_line": 21,
+          "published": "2023-10-22T18:00:00+00:00",
+          "char_count": 7655,
+          "local_path": "C:/Users/Hi/Downloads/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/starter/data/corpus/technology/doc_0033_Is_Google_Search_better_than_the_rest_And_is_that_fair.md",
+          "start_line": 11,
+          "position_type": "independent_article"
+        },
+        "score": 19.17374029976283
+      }
+    ],
+    "elapsed_ms": 8.785100013483316,
+    "embedding_usage": null
+  },
+  "context": "[by_paragraph-d8e7f97a168ae7074647c17eaaea90b1c233730fc5580ea3d04ebbe1f0a12211 | https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology | page 1]\nSimilarly, it’s also pretty common to see people complaining on the internet with some variation of “Google Search was a lot better 10 years ago”, which could absolutely be true. But it would be a stretch to assume that’s because of the company’s monetisation practices, when there’s a much simpler explanation. In 2013, people were creating around 9 ZB of data every year (that’s nine zettabytes, or nine trillion gigabytes), which Google had to index constantly, whereas in 2023 it’s more like 120 \n\n[by_paragraph-3fb77a3855ced0e8f59949306114fc206d3ee11f06effe86ecf1b3161d2d2ad8 | https://www.musicbusinessworldwide.com/afrofutures-vision-is-to-bring-african-art-cuisine-fashion-and-music-to-a-global-audience/ | page 1]\nTell us about the impact that Afrofuture has had on the country’s local tourism industry…\n\nThe local impact of AfroFuture is significant. Every year, we make an effort to employ Ghanians to aid our festival and surrounding activities to support the local community.\n\nIn 2019 alone, AfroFuture helped bring in $2.1 billion in tourism revenue for “Year of Return” and the festival is expected to generate approximately 16% of the country’s tourism [this year].\n\n[by_paragraph-1a1ab479e9e529ac9944256d9e3063e30b69cead6534d06899856834095c928c | https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology | page 1]\nThe process of this test did remind me how much data Google collects — not just my searches but anything I say to a smart speaker, any search result or ad that I click — which will be a point in favour of DuckDuckGo for some, even if it didn’t perform as well and is harder to read. The data collection does also mean that Google (not just search but also mobile widgets and other services) personalises to me more effectively. Loading Bing has overhauled its layout over the past year to be very ",
+  "context_ids": [
+    "by_paragraph-d8e7f97a168ae7074647c17eaaea90b1c233730fc5580ea3d04ebbe1f0a12211",
+    "by_paragraph-3fb77a3855ced0e8f59949306114fc206d3ee11f06effe86ecf1b3161d2d2ad8",
+    "by_paragraph-1a1ab479e9e529ac9944256d9e3063e30b69cead6534d06899856834095c928c"
+  ],
+  "context_budget_chars": 4000,
+  "context_chars": 2186,
+  "hit1": true,
+  "hit3": true,
+  "context_match": true,
+  "elapsed_ms": 8.835399989038706,
+  "split": "test"
+}

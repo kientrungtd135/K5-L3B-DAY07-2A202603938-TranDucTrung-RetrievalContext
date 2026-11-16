@@ -1,0 +1,52 @@
+{
+  "split": "dev",
+  "model": "deepseek-v4.1-flash",
+  "profiles": {
+    "dense_baseline": {
+      "hypothesis": "Baseline: one dense search with Day 6 vectors.",
+      "params": {
+        "method": "dense",
+        "top_k": 3,
+        "budget": 4000,
+        "max_searches": 1
+      }
+    },
+    "bm25_candidate": {
+      "hypothesis": "Exact names and terms may improve grounding and reduce embedding latency.",
+      "params": {
+        "method": "bm25",
+        "top_k": 3,
+        "budget": 4000,
+        "max_searches": 1
+      }
+    },
+    "hybrid_candidate": {
+      "hypothesis": "Combining lexical and semantic evidence may improve answer grounding.",
+      "params": {
+        "method": "hybrid",
+        "top_k": 3,
+        "budget": 4000,
+        "max_searches": 1
+      }
+    },
+    "auto_candidate": {
+      "hypothesis": "Model-selected tools and up to three searches may resolve incomplete evidence at extra cost.",
+      "params": {
+        "method": "auto",
+        "top_k": 3,
+        "budget": 4000,
+        "max_searches": 3
+      }
+    }
+  },
+  "dev_sha256": "53023071a012e095607506f833ec63af3e668ddd7bd562d1a64b251b492e2b2c",
+  "corpus_sha256": "2c7d8f4d7614c39037d1a3c4a8ea853de5d5baf5166929c61a31da4f36f8b661",
+  "code_hashes": {
+    "src/agent.py": "3c398112d282b770822f562214e3fd739ffe034cf10a45591f7bb2cd12647554",
+    "src/retrieval.py": "2132e82116fb8dbed6cb630a0e8acd7ef6d6d36444b743cb7083af9048b795dd",
+    "src/day6_bridge.py": "9993db94bdcc9bb6d4a1d8689717d4f639e4f2a510e4bd8249b67e01c4f4a01d",
+    "src/evaluate_agent.py": "8415ad171129525a9c238dea4052f8c1968652a395149b7cc6d4b2758fc626ad",
+    "starter/baseline.py": "cf51d4f4dd5412270d73b51cb117eef5329695fc8fd8eb637de050b3d6488c36"
+  },
+  "selection_rule": "DEV: highest mean grounded-answer grade, then context evidence rate, then citation validity, then lower median end-to-end latency. Report usage and cost separately."
+}

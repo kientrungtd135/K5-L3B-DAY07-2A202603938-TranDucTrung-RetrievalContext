@@ -1,0 +1,57 @@
+[
+  {
+    "query_id": "d7-dev-u01",
+    "split": "dev",
+    "related_source_id": "doc_0003",
+    "search_terms": [
+      "Ruckel",
+      "Ripple Rug",
+      "2022",
+      "90%"
+    ],
+    "reason": "The article gives Ruckel's prices and losses, but no 2022 sales percentage. The 90% figure concerns Molson Hart, a different seller.",
+    "review_status": "ai_proposed_needs_human_review",
+    "review_method": "Inspect the relevant original article and search all 30 articles; top-k failure alone is insufficient."
+  },
+  {
+    "query_id": "d7-dev-u02",
+    "split": "dev",
+    "related_source_id": "doc_0002",
+    "search_terms": [
+      "Betashares",
+      "net profit",
+      "profit after tax"
+    ],
+    "reason": "Betashares is mentioned for an acquisition and funds under management, not its annual net profit.",
+    "review_status": "ai_proposed_needs_human_review",
+    "review_method": "Inspect the relevant original article and search all 30 articles; top-k failure alone is insufficient."
+  },
+  {
+    "query_id": "d7-test-u01",
+    "split": "test",
+    "related_source_id": "doc_0027",
+    "search_terms": [
+      "Mozilla.social",
+      "subscription",
+      "monthly",
+      "price"
+    ],
+    "reason": "The article describes a private beta and moderation plans but gives no monthly subscription price. Absence of a price does not imply a zero-dollar price.",
+    "review_status": "ai_proposed_needs_human_review",
+    "review_method": "Inspect the relevant original article and search all 30 articles; top-k failure alone is insufficient."
+  },
+  {
+    "query_id": "d7-test-u02",
+    "split": "test",
+    "related_source_id": "doc_0034",
+    "search_terms": [
+      "Helena",
+      "damages",
+      "award",
+      "judgment"
+    ],
+    "reason": "The snapshot describes a newly filed lawsuit and requested relief, not a damages award. Google's Canadian media agreement is a different matter.",
+    "review_status": "ai_proposed_needs_human_review",
+    "review_method": "Inspect the relevant original article and search all 30 articles; top-k failure alone is insufficient."
+  }
+]
