@@ -1,10 +1,6 @@
-# Báo cáo cá nhân Day 7 — Retrieval & Context Engineering
+# Báo cáo cá nhân Day 7
 
-- Họ tên: Trần Đức Trung; MSSV: 2A202603938; lớp: L3B.
-- Phạm vi: phần cơ bản; không thực hiện bonus tài liệu từ 100 trang.
-- AI hỗ trợ lập trình, thiết kế benchmark và đề xuất chấm sau khi đọc evidence. Tất cả nhãn hiện là `ai_proposed`, chưa được xác nhận độc lập bởi người chấm.
-
-## 1. Dữ liệu, model và benchmark
+## 1. Dữ liệu và benchmark
 
 Kế thừa index B Day 6: 30 bài Markdown, gồm 15 business và 15 technology; chunk theo đoạn với max_size=500 ký tự, tổng cộng 701 chunk. page=1 là đơn vị bài viết, không phải trang PDF.
 
@@ -18,11 +14,7 @@ Bốn câu thiếu evidence hỏi về tỷ trọng doanh số Ripple Rug năm 2
 
 Nguồn dữ liệu là subset MultiHopRAG, dataset khai báo ODC-BY. URL/attribution được giữ trong manifest và trace. License dataset không xác nhận riêng quyền phân phối từng bài báo. Day 7 cung cấp nguồn Day 6 và cách tái tạo; trace vẫn chứa các đoạn nguồn đã dùng.
 
-Nguồn Day 6: [7aa3adc7a0bf](https://github.com/kientrungtd135/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion/tree/7aa3adc7a0bf794daa654156b06bf9743403b763); manifest tại starter/data/manifest.json trong repo đó.
-
-Fingerprint corpus B: `2c7d8f4d7614c39037d1a3c4a8ea853de5d5baf5166929c61a31da4f36f8b661`.
-
-Chốt cấu hình lúc `2026-11-16T09:36:14.089643+00:00`; xem [final_selection.json](../../configs/final_selection.json).
+Nguồn Day 6: Manifest tại starter/data/manifest.json trong repo.
 
 ## 2. Phương pháp và cấu hình
 
