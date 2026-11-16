@@ -64,7 +64,6 @@ DEV Day 6 tạo A/B/C; Day 7 chỉ đọc B. deps/ được ignore. Model/API th
 ```powershell
 & .\.venv\Scripts\python.exe -X utf8 -m unittest discover -s tests -v
 & .\.venv\Scripts\python.exe -X utf8 -m src.summarize_results
-& .\.venv\Scripts\python.exe -X utf8 -m src.write_submission_docs
 ```
 
 21 unit tests đã pass, gồm sáu guard tests v2. Unit tests không thay thế benchmark agent thật. Tổng hợp kiểm tra hash pipeline/review; không tự chấm semantic hoặc đổi AI-proposed thành human-confirmed.
